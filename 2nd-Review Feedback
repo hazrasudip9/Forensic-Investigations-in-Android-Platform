@@ -1,0 +1,106 @@
+2nd Review Feedback:
+
+Date : 15 November, 2016
+
+Review Panel Members:
+
+Kamalanathan K, Prabhakar Krishnan and Hari Sir.
+
+Time : 5:00pm - 6:00 pm
+
+I showed Them the a demo fuse file system as well as azurefs, a python program which mounts the azure cloud storage as a file system.
+
+ 
+ Questions Asked: 
+Prabhakar Sir's Questions:
+1.Why do we need to create a seperate file system for storing the suspect's data, we can create a directory which will be hidden using a rootkit and maybe scrambled in different system directories?
+ 
+My answer:
+ I could not answer this question , I tried to say that It will be much convenient and the data can be organized but I could not give a satisfactory reply.
+ 
+ 
+2. Why oppurtunistic upload , We can use mobile data also when the device is idle?
+ 
+My answer: Most of the time mobile data is limited and it will also cause battery drain when used in battery mode, so we decided to uplaod the data only when there is wifi and the phone is charging to prevent suspicion, however we can reconfigure for according to the suspects usage.
+
+3.Why Fuse?
+My answer: Fuse can be used to mount user-space file system , so it is much less complicated than creating a file system in kernel and access it using vfs. However in future we plan to incorporate in the android kernel itself.
+
+
+4. Why not merge the two file systems i.e the Cloud drive and the stealth file systems?
+
+My answer: I told that it will be helpful in maintaining a cache for future uploads ,in intervals the stealth file systems will copy the data to cloud file system and empty its for new data. However they argued that the both file systems should be mergerd, I could not give a satisfactory answer.
+
+5.How the rootkit will work?
+
+My answer: The rootkit will subvert all file systems listing calls like df and du using either replacing the system calls or hooking to the exception vector table. The rootkit technique has not been finalised.
+
+
+Prabhakar Krishnan Sir's Suggestions:
+
+He suggested that I include some behavioural analysis in the device itself and the data collection will be governed by the behavioural analysis and to use the idle cpu clock cycles to do the analysis and only upload the synopsis in cloud.incorporating some social networking behaviour analysis tools , I argued that it will make the device slow and we can implement the same in Cloud but they insisted that it should be included in device also.
+
+The C&C server should be able to operate in both auto and manual mode such that it can control the data collection and upload according to the suspect behaviour , also if the suspect is an any way tinkering with the evidence , it should be able to immediately erase all evidence.He also stressed that there must be innovation in the project 
+
+
+
+Kamlanathan Sir's suggestions:
+
+I  must be able to publish a paper in a SCOPUS indexed journal.I also need to submit some deliverables  along with the minor project report.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Prabhakar Mateti Sir's  Questions and Replies:
+
+   1. When did it begin and how long did it last?
+   
+   2. Please give full names (and even their web home pages) of your panel.
+   
+   3. Identify who asked what questions.
+   
+   4. Your Item#6. Was this a general reminder to everyone or did they think there is not enough originality in your work?
+   
+   5. Why not a dir? Why a separate filesys? Let me answer it separately.
+   
+   6. (I am yet to read your slides.)  You did not seem to have mentioned that your Cloud Storage Subsys is used in the entire 
+       ROM project, in particular by Jithin, Manuel and You.
+       
+   7. Your item#4.  You were right.  But we should produce experimentally observed timings and battery drain.
+   
+   8. Few other thoughts for you:  
+        Your work in proactive forensics is a continuation.
+        At end of your MTech, there will still be more fork for another two or three on forensics.
+        Providing cloud storage reliably, incrementally, and with minimal battery drain is more than 50% of your thesis work.
+        Usable by other components/ developers [Jithin, Manuel and You] of the ROM.
+        
+        
+        
+        
+        
+Architecture of Cloud Storage Support
+
+In the previous post I skipped answering "Why not a dir? Why a separate filesys?" This post is an answer.
+
+   1.Obviously cloud storage implies storing external to the device.
+    
+   2.Pro: We expect much higher permanence and much greater capacity.
+   
+   3.Con: Higher battery drain, sluggish retrieval from the cloud (despite 4G).
+   
+   4.The subsystem serves other (non-forensic) ROMs.
+   
+   5. Why not just a file?
+        1. We collect a variety of data as files, and key-value pairs (database).
+        2. More complex to hide files within a directory that is visible than an entire file volume.
+        3. In a forensic device we may assign an eMMC partition to the stealth FS.
+    6. We expect to perform analysis mostly outside the Android device. Same three reasons:
+        1.computational lag; not enough computing power, ...
+        2.need data mining of large amount of history gathered.
+        d3.o not wish to cause battery drain.
+   7. I can add more, but for now enough.
+        
+        
+
+ 
+
+
