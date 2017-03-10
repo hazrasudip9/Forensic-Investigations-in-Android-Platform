@@ -1,0 +1,1 @@
+cmd_/home/sudip/Desktop/rooty/rooty.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sudip/Desktop/rooty/rooty.ko /home/sudip/Desktop/rooty/rooty.o /home/sudip/Desktop/rooty/rooty.mod.o

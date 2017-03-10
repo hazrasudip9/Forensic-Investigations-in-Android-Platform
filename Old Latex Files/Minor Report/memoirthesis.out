@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{section*.4}{List of Tables}{}% 1
+\BOOKMARK [0][-]{section*.5}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Smartphone OS Market Share}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Android Architecture}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{Linux Kernel}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{Libraries}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.3}{Android Runtime}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.4}{Application Framework}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.5}{Applications}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.6}{Applications Used in Criminal Activites}{section.1.2}% 11
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Fuse\(File system in User Space\)}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Cloudfs}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Stealthfs via Rootkits}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{User Level Rootkits}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{Kernel Level Rootkits}{section.2.3}% 17
+\BOOKMARK [0][-]{chapter.3}{Problem Statement}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Aim}{chapter.3}% 19
+\BOOKMARK [0][-]{chapter.4}{Stealth File System with Cloud Support}{}% 20
+\BOOKMARK [1][-]{section.4.1}{ Modules Description:}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.1.1}{Forensic Service}{section.4.1}% 22
+\BOOKMARK [2][-]{subsection.4.1.2}{Stealth File Systems}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.3}{Cloud File System}{section.4.1}% 24
+\BOOKMARK [0][-]{chapter.5}{Results and Discussion}{}% 25
+\BOOKMARK [1][-]{section.5.1}{Fuse File System in Linux}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.2}{Mounting a Demo Fuse File System in Python}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.3}{Mounting a Cloud Drive as Local File System}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.3.1}{MegaFuse}{section.5.3}% 29
+\BOOKMARK [1][-]{section.5.4}{Evidence Recovery using Sleuthkit Forensic Recovery Tool}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.4.1}{Results}{section.5.4}% 31
+\BOOKMARK [1][-]{section.5.5}{Hiding File Systems Using Rootkits}{chapter.5}% 32
+\BOOKMARK [0][-]{chapter.6}{Related Work}{}% 33
+\BOOKMARK [0][-]{chapter.7}{Development Plan}{}% 34
+\BOOKMARK [1][-]{section.7.1}{Things To be Done}{chapter.7}% 35
+\BOOKMARK [0][-]{chapter.8}{Conclusion And Future Work}{}% 36
+\BOOKMARK [0][-]{appendix.A}{Appendix A}{}% 37
+\BOOKMARK [0][-]{section*.7}{Bibliography}{}% 38

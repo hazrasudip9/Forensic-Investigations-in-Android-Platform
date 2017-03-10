@@ -1,0 +1,64 @@
+\chapter{Mateti's {\LaTeX} Thesis Example}
+
+I recommend that you use my collection of
+files\footnote{\url{http://www.cs.wright.edu/~pmateti/Students/thesisExample.tbz}}.
+My own contribution here is not original.  It is in pulling together
+various needed pices in trying to reduce the \LaTeX-learning time for
+my students.
+
+\section{Contents of the {\tt tar} File}
+
+The downloaded file is a {\tt tar} archive compressed with {\tt
+  bzip2}.  You can untar it, in Linux, as in
+
+{\tt tar xvfj thesisExample.tbz}
+
+Your current directory will then have a new subdirectory called
+ThesisEx/ with the following files and subdirectories in it.
+[Ignore the dates, and usernames.]
+
+\begin{verbatim}
+drwxr-xr-x    2 pmateti  pmateti      4096 May 24 13:07 Chapters/
+drwxr-xr-x    2 pmateti  pmateti      4096 May 24 11:44 Figures/
+drwxr-xr-x    2 pmateti  pmateti      4096 May 24 11:44 LaTeX/
+-rw-r--r--    1 pmateti  pmateti       713 May 24 11:47 Makefile
+drwxr-xr-x    2 pmateti  pmateti      4096 May 24 13:09 Tables/
+-rw-r--r--    1 pmateti  pmateti      8513 May 24 11:44 thesis.bib
+-rw-r--r--    1 pmateti  pmateti      1158 May 24 11:47 thesis.tex
+drwxr-xr-x    2 pmateti  pmateti      4096 May 24 11:44 WSU/
+drwxr-xr-x    2 pmateti  pmateti      4096 May 24 11:44 AmritaU/
+\end{verbatim}
+
+\section{Your Use of these Files}
+
+The files in the directory LaTeX are to be left as they are.  Note the
+content of file named {\tt thesis.tex} from the very top to the line
+\verb|\begin{document}|.  Edit these only if you are fluent in LaTeX.
+
+Edit the files in the WSU or AmritaU directory to insert your own name,
+etc.
+
+Replace all the files in the {\tt Chapters/ Figures/ Tables/}
+directories with yours.  Edit the {\tt thesis.tex} to input the files
+in the {\tt Chapters/ Figures/ Tables/} directories.
+
+Use the given {\tt Makefile} as a template and adjust.
+
+This example template of a manuscript is written in the style of
+learn-by-example.  The text body (in the pdf) shows what is possible,
+and you are expected to study the \latex{} source of these chapters to
+learn how things were done.
+
+\section{Bib Files}
+\label{BibFiles}
+
+If you have several .bib files, move them into a {\tt BiB/} directory.
+Note that \verb|\bibliography| does accept multiple filenames
+(pathnames), separated by commas, but no spaces.  E.g., {\tt
+  \verb|\bibliography|\{Bib/amrita, ..., Bib/cloud-comp,
+  Bib/cloud-storage, Bib/code-audit, Bib/crowd-source, Bib/forensics,
+  ..., Bib/malware, Bib/privacy, Bib/provenance,
+  Bib/zygote-aslr-rop\}} is {\sc ok}.  Make sure there are no spaces,
+and no ellipses -- I included these here just for readability.
+
+% -eof-

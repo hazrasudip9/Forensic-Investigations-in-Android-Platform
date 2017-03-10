@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{aiyyappan_2015}
+{\sc Aiyyappan and Prabhakar}, {\em Android forensic support framework},
+  Master's thesis, 2015.
+
+\bibitem{akarawita_perera_atukorale_2015}
+{\sc I.~U. Akarawita, A.~B. Perera, and A.~Atukorale}, {\em Androphsy -
+  forensic framework for android}, 2015 Fifteenth International Conference on
+  Advances in ICT for Emerging Regions (ICTer),  (2015).
+
+\bibitem{amani_murray_2015}
+{\sc S.~Amani and T.~Murray}, {\em Specifying a realistic file system},
+  Electron. Proc. Theor. Comput. Sci. Electronic Proceedings in Theoretical
+  Computer Science EPTCS, 196 (2015), p.~1–9.
+
+\bibitem{anglano_2014}
+{\sc C.~Anglano}, {\em Forensic analysis of whatsapp messenger on android
+  smartphones}, Digital Investigation, 11 (2014), p.~201–213.
+
+\bibitem{graziano_flore_lanzi_balzarotti_2016}
+{\sc M.~Graziano, L.~Flore, A.~Lanzi, and D.~Balzarotti}, {\em Subverting
+  operating system properties through evolutionary dkom attacks}, Detection of
+  Intrusions and Malware, and Vulnerability Assessment Lecture Notes in
+  Computer Science,  (2016), p.~3–24.
+
+\bibitem{grover_2013}
+{\sc J.~Grover}, {\em Android forensics: Automated data collection and
+  reporting from a mobile device}, Digital Investigation, 10 (2013).
+
+\bibitem{hanif_lengyel_webster_2015}
+{\sc Z.~Hanif, T.~K. Lengyel, and G.~D. Webster}, {\em Internet-scale file
+  analysis}, Black Hat Usa,  (2015).
+
+\bibitem{karthik_2016}
+{\sc Karthik and Prabhakar}, {\em Proactive forensic support for android
+  devices}, Master's thesis, 2016.
+
+\bibitem{mahajan_dahiya_sanghvi_2013}
+{\sc A.~Mahajan, M.~S. Dahiya, and H.~P. Sanghvi}, {\em Forensic analysis of
+  instant messenger applications on android devices}, International Journal of
+  Computer Applications, 68 (2013), p.~38–44.
+
+\bibitem{Muller:2013:FFR:2524523.2524555}
+{\sc T.~M\"{u}ller and M.~Spreitzenbarth}, {\em Frost: Forensic recovery of
+  scrambled telephones},  (2013), pp.~373--388.
+
+\bibitem{mylonas_meletiadis_tsoumas_mitrou_gritzalis_2012}
+{\sc A.~Mylonas, V.~Meletiadis, B.~Tsoumas, L.~Mitrou, and D.~Gritzalis}, {\em
+  Smartphone forensics: A proactive investigation scheme for evidence
+  acquisition}, IFIP Advances in Information and Communication Technology
+  Information Security and Privacy Research,  (2012), p.~249–260.
+
+\bibitem{thakur_2013}
+{\sc N.~Thakur}, {\em Forensic Analysis of whatsapp on Android Smartphone}, PhD
+  thesis, 2013.
+
+\bibitem{yang_shi_sun_zheng_alves-foss_2016}
+{\sc X.~Yang, P.~Shi, H.~Sun, W.~Zheng, and J.~Alves-Foss}, {\em A fast boot,
+  fast shutdown technique for android os devices}, Computer, 49 (2016),
+  p.~62–68.
+
+\end{thebibliography}

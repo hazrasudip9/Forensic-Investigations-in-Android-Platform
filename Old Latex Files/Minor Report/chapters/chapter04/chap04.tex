@@ -1,0 +1,61 @@
+%
+% File: chap04.tex
+% Author: Gayathri Manikutty
+% Description: Implementation and Results chapter.
+%
+\let\textcircled=\pgftextcircled
+\chapter{Stealth File System with Cloud Support}
+\label{chap:proposal}
+
+\initial{H}Here we propose a Stealth File system with cloud support  Below the Android  Software stack.
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=15cm]{fig04/FUSE}
+   \caption{Proposed System Architecture}
+  \end{figure}
+ \section{ Modules Description:}
+ 
+\subsection{Forensic Service}
+The forensic service designed by Karthik\cite{Karthik2016} Et.al and Aiyyappan Et.al\cite{Aiyyappan2015} will collect the forensically relevant data from the device partitions and will send it to the /forensic file system. The data sent will include:
+\begin{itemize}
+\item Phonebook\\
+  com.android.providers.contacts/databases/contacts2.db
+\item Call History\\ com.android.providers.contacts/databases/contacts2.db
+\item Browsing History\\ com.android.browser/databases/browser.db
+\item Calender\\ com.android.providers.calendar/databases/calendar.db
+\item SMS com.android.providers.telephony/databases/mmssms.db
+\item WhatsApp\\ com.whatsapp/databases/msgstore.db
+\item GMail\\ com.google.android.gm/mailstore.<username>@gmail.com.db
+
+\textbf{In addition to these Data Keylogger data ,call record data and Sensor data will also be sent to the forensic partition.}
+\end{itemize}
+  \subsection{Stealth File Systems}
+  The stealth file system will be a seperate file system which will be used by the forensic service to copy all the forensically relevant data from the relevant device partitions like /data to the stealth file system. The stealth file system will be based on ext4 file systems, rootkits will be used to hide the file volumes from commands like df and du. The rootkit will be responsible for subverting systems calls which can potentially expose the presence of the either the forensic service running or the stealth file system and the cloud file system.The rootkit will also hide the forensic service running in the background by hooking on to the sys\_call\_table and filtering out the output. In future the stealth file system will be based on a seperate emmc partition for added stealth.
+  \subsection{Cloud File System}
+  The cloud File system will made using fuse , and we will be able to locally mount a cloud drive as the cloud file system. It will support various cloud providers using api's .The cloud drive will opportunistically upload the data to the cloud storage online. The cloud file system will also be made stealth using rootkits and seamlessly copy data from the stealth file systems and sync it .It will also act a cache to prevent data loss.\\
+  
+  Cloud Drives can be mounted as Local Drives using the various cloud storage provider api's like:\\
+  \textbf{Cloud Storage API's Examples:}\\
+  Dropbox Cloud Storage Api's:\\
+  \begin{itemize}
+  \item Create a Dropbox folder \\
+  \tt post('https://api.dropbox.com/1/fileops/create\_folder', args)\\
+  \item Rename a Dropbox file/directory object.\\
+    \tt  post('https://api.dropbox.com/1/fileops/move', args)\\
+    
+   \item Delete a Dropbox file/directory object.\\
+    \tt post('https://api.dropbox.com/1/fileops/delete', args)\\
+    
+    \item Get Dropbox metadata of path.\\
+    \tt
+    get('https://api.dropbox.com/1/metadata/auto' + path, args)\\
+  
+  \end{itemize} 
+ 	
+  
+  
+ 
+  
+  As per the official android documentation the external storage (SD cards) are accessed by the Android system using FUSE which implies that FUSE is supported by the kernel directly so we dont need to add fuse support in kernel , we need to develop the cloudfs which will be controlled by the Android Cloud Storage Service(ACCS)  which will run as a background service and will be configurable using an Apk and .config file.The stealth file system with the cloud file system will work with forensic service developed by aiyyappan and karthik and will be incorporated into the forensic rom.
+  
+  

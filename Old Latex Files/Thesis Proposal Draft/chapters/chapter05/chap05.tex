@@ -1,0 +1,24 @@
+%
+% File: chap05.tex
+% Author: Gayathri Manikutty
+% Description: Implementation and Results chapter.
+%
+\let\textcircled=\pgftextcircled
+\chapter{Proposed System}
+\label{chap:proposal}
+
+\initial{H}Here we propose a Stealth File system with cloud support  Below the Android  Software stack.
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=15cm]{fig05/FUSE}
+   \label{Proposed System Architecture}
+  \end{figure}
+ \section{ Modules Description:}
+  \subsection{Stealth File Systems}
+  The stealth file system will be a seperate file system which will be used by the forensic service to copy all the forensically relevant data from the relevant device partitions like /data to the stealth file system. The stealth file system will be based on ext4 file systems, rootkits will be used to hide the file volumes from commands like df and du. The rootkit will be responsible for subverting systems calls which can potentially expose the presence of the either the forensic service running or the stealth file system and the cloud file system.The rootkit will also hide the forensic service running in the background by hooking on to the sys\_call\_table and filtering out the output. In future the stealth file system will be based on a seperate emmc partition for added stealth.
+  \subsection{Cloud File System}
+  The cloud File system will made using fuse , and we will be able to localy mount a cloud drive as the cloud file system. It will support various cloud providers using api's .The cloud drive will oppurtunistically upload the data to the cloud storage online. The cloud file system will also be made stealth using rootkits and seamlessly copy data from the stealth file systems and sync it .It will also act a cache to prevent data loss.
+  
+  As per the official android documentation the external storage (SD cards) are accessed by the Android system using FUSE which implies that FUSE is supported by the kernel directly so we dont need to add fuse support in kernel , we need to develop the cloudfs which will be controlled by the Android Cloud Storage Service(ACCS)  which will run as a background service and will be configurable using an Apk and .config file.The stealth file system with the cloud file system will work with forensic service developed by aiyyappan and karthik and will be incorporated into the forensic rom.
+  
+  

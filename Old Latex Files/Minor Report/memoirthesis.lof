@@ -1,0 +1,26 @@
+\select@language {english}
+\par \penalty \@M \textbf {{\scshape Figure} \hfill Page}\par \penalty \@M 
+\addvspace {10pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \href {http://www.gartner.com/newsroom/id/3323017} Gartner Survey Results}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \href {https://www.tutorialspoint.com/android/}{Android Architecture} }}{3}{figure.1.2}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \href {https://en.wikipedia.org/wiki/Filesystem_in_Userspace}{Filesystem in Userspace }}}{8}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \href {https://www.cs.cmu.edu/~fp/courses/15213-s07/lectures/15-filesys/}{Making a Call in Fuse File System} }}{9}{figure.2.2}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed System Architecture}}{19}{figure.4.1}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Mounting a Fuse File System}}{24}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Contents of the Mounted File System}}{24}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Megafuse.h defining supported Fuse File Operations}}{25}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Mounted Megafuse Cloud Drive}}{25}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Running Megafuse Client}}{26}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Megafuse File System as seen by df command}}{26}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Device image Analysis using Sleuthkit}}{27}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Recovered Images}}{27}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Recovered Emails}}{28}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Hiding Filesystem Using Rootkits}}{28}{figure.5.10}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}

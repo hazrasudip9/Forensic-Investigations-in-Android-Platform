@@ -1,0 +1,23 @@
+
+1.@article{amani_murray_2015, title={Specifying a Realistic File System}, volume={196}, DOI={10.4204/eptcs.196.1}, journal={Electron. Proc. Theor. Comput. Sci. Electronic Proceedings in Theoretical Computer Science EPTCS}, author={Amani, Sidney and Murray, Toby}, year={2015}, month={Aug}, pages={1–9}}
+ 
+ 
+BilbyFs is a an asynchronous write flash file system whose formal verification is done using Isabelle/Hol. The file system needs a C-Wrapper which is placed between the VFS and the filesystem hence direct mapping is not possible. which can be a disadvantage. It follows strict ordering of updates and do not support concurrency. It was formally verified that the Bilbyfs indeed follows async writes .
+ 
+ 
+2.@article{yang_shi_sun_zheng_alves-foss_2016, title={A Fast Boot, Fast Shutdown Technique for Android OS Devices}, volume={49}, DOI={10.1109/mc.2016.210}, number={7}, journal={Computer}, author={Yang, Xia and Shi, Peng and Sun, Haiyong and Zheng, Wenxuan and Alves-Foss, Jim}, year={2016}, pages={62–68}}
+ 
+The paper demonstrates a new technique of Fast Boot in android called FBFS. Here the snapshot is taken of the system only once and hence afterwards whenever the system boots, it makes a call to RSS_thread to sync the ram image with the latest files in emmc. significantly decreases the startup time to 7.8secs and shutdown to normal 10.3 secs, but when will the system know when to update the snapshot upon system update or a specified amount of time is not addressed.
+ 
+ 
+3.@article{graziano_flore_lanzi_balzarotti_2016, title={Subverting Operating System Properties Through Evolutionary DKOM Attacks}, DOI={10.1007/978-3-319-40667-1_1}, journal={Detection of Intrusions and Malware, and Vulnerability Assessment Lecture Notes in Computer Science}, author={Graziano, Mariano and Flore, Lorenzo and Lanzi, Andrea and Balzarotti, Davide}, year={2016}, pages={3–24}}
+ 
+New type of DKOM attack ,does not change the kernel dynamic data structures at once but continues to do it over a period of time. Difficult to detect because there is no sudden change but continuous one. attacks the cfs tree of the scheduler but not the process tree hence the app being attacked shows in the ps but it is indefinitely delayed in the scheduler as the vruntime is set to max. Detected using a thin hypervisor debugger which uses defensive mimic technique to detect the attack using periodic monitor and task tracker. Can stop ids or any antivirus and do not modify kernel code. Various other variation possible like attacking memory management. 
+
+4.@article{hanif_lengyel_webster_2015, title={Internet-Scale File Analysis }, journal={Black Hat Usa}, author={Hanif, Zack and Lengyel, Tamas K and Webster, George D}, year={2015}}
+ 
+A large scale malware analysis framework implemented in skald framework and has loosely coupled components like transporter ,planner and services, all inter-connected but highly failure resistant. TOTEM is the name of the tool tey created using the framework, written in scala using AKKA. Planner designates tasks to various services which execute and the reports are forwarded using RabbitMQ messaging protocol . Highly concurrent and a very good technique for mass scale malware analysis but more details are needed how the service outputs are fed to humans or scripts for report generation.
+
+5.@article{rudd_rozsa_günther_boult_2016, title={A Survey of Stealth Malware Attacks, Mitigation Measures, and Steps Toward Autonomous Open World Solutions}, journal={IEEE COMMUNICATION SURVEYS & TUTORIALS}, author={Rudd, Ethan M and Rozsa, Andras and Günther, Manuel and Boult, Terrance . E}, year={2016}, month={Mar}}
+ 
+A paper about the various stealth techniques used by malwares chronologically order and how they were detected.Focuses on Windows malware, draws out the drawbacks of various detection techniques like in detection using machine learning, the training set is closed world , and the classifier can make erroneous classification due to lack of training and feature sets. I could not under stand the proposed solution as i don't have background in machine learning.

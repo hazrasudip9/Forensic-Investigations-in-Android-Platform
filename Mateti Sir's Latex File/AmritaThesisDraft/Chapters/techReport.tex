@@ -1,0 +1,153 @@
+\chapter{Technical Report Writing}
+
+A thesis is a technical report.  Read and follow a good style book
+(e.g., Chicago) on technical report writing.  It is a good exercise to
+mark {\em this} article up!  Additionally, every university has
+guidelines regarding layouts and required pages such as a title page
+an approval page.
+
+(This article is itself poorly and hastily written.  Think of it as a
+collection of notes.  ``Do as I say, not as I do! {\tt ;-)}'' )
+
+
+\section{Order and Content of the Chapters}
+
+This chapter is about the ordering of academic/technical content.  I
+am particularly annoyed by the ``wrong order'' of chapters.  I
+recommend the following order for the chapters.  But, do choose better
+titles than the generic ones I am using below.
+
+\begin{description}
+\item[Abstract]
+
+  Of course, Abstract is not a chapter!  In a technical report, the
+  Abstract should be a summary of the contents.  Too many published
+  papers include motivational sentences, and even citations.  These
+  are inappropriate.  Typical length of a thesis abstract is a page.  
+
+\item
+  [Introduction] should restate the abstract, preferably using
+  different sentences.  It is customary that the last paragraph
+  describes the structure of the report.
+
+\item
+  [Background] describe concepts and terminology needed to understand
+  the rest.  There should always be a chapter (in a thesis) or a
+  section (in a paper) on backround.  This is a collection of
+  definitions and (extremely brief) tutorials on what the reader
+  should know in order to appreciate the main body of your tech
+  report.  The length of this should never exceed, say, 1/10 of the
+  tech report.  In a thesis, this is almost always the second chapter.
+
+\item
+  [Problem Statement] should be rigorous, and complete.  Also address
+  the following: Why is it interesting to solve? Is it too trivial and
+  not at the MTech/PhD level? Is it too hard to solve?  ``Problem
+  Statement'' is a poor title -- choose better.
+
+\item [Architecture and Design]
+  Details of (Your) Solution. This may be multiple chapters.
+
+\item [Related Work] There should always be a chapter (in a thesis) or
+  section (in a paper) on related work.  This is an organized critique
+  of the body of literature related to the work you are doing.  The
+  expectation is that this is exhaustive.  What have others done?  Do
+  summarize, but focus on critiquing.  This is not a collection of
+  paragraphs summarizing individual papers.  It is almost always a bad
+  idea to make this the second chapter.
+
+  Place this chapter after a discussion of your work.  Then, you will
+  be able to compare your work with that of others.    Discuss your
+  dependencies -- what you are using from where?  This chapter (almost
+  always) should follow your solution so that you can discuss
+  comparatively your decisions in your solution.
+
+\item
+  [Discussion] of Alternatives (what else could have provided answers).
+
+\item
+  [Evaluation] of Your Solution (qualitative as well as quantitative).
+
+\item
+  [Conclusion] Use it with both of its meanings: deductions, and
+  finishing.
+
+\item
+  [References] Must be ``properly'' done.  See the Section
+  \ref{References}.
+
+
+\end{description}
+
+\section{Structure}
+
+When you are moving from a chapter heading to its first section, and
+from a section heading to its first subsection there is always an
+introductory paragraph.
+
+Sometimes we like to write a paragraph at the end of a chapter that
+does not belong to the last section.  This is often done by
+introducing some extra vertical white space after the end of the last
+section that is longer than the typicial spacing between consecutive
+sections.
+
+There are no particular size requirements.  But, a one page chapter
+and a two line section do look silly.
+
+\section{URLs}
+
+URLs are now common in CS theses.  Older style guides do not cover
+these.  Include a URL inside \verb|\url{}|. Example:
+\url{http://www.google.com/search?q=latex+eepic+pstricks+tikz}
+The package named {\tt hyperref} has a macro named \verb|href| with
+two arguments: first one, a URL, second one, the text to be displayed.
+
+
+\section{Acronyms}
+
+Acronyms are written in all-upper case.  Examples: {\sc gnu}, {\sc
+  bcpl}, {\sc kde}.  Linux, Unix, Android, Scala, Java, ... are not
+acronyms.  Do not write LINUX; change it to Linux, no boldface, L in
+caps, the rest in lower case.
+
+\section{References}
+\label{References}
+
+Use BiBTeX.  The file named {\tt thesis.bib} should contain the
+references you collected in the {BibTeX} syntax.  I have included a
+few references to illustrate this syntax; you can leave them in this
+file.  In general, it can contain many more references than what you
+cite in the body of your thesis.  The {\tt bibtex} program examines
+the actual citations made, and pulls together the cited references
+into the text file named {\tt thesis.bbl}.  See also Section
+\ref{BibFiles}.
+
+Pay attention to the complaints of {\tt bibtex}.  Publication venue
+(conference or journal), year, and page numbers of the paper are a
+must.  Include {\sc url} of the paper ({\sc html} or {\sc pdf}), if
+available.
+
+Bibliographic citations are done in many ways.  I prefer [Author-Name,
+  Year] style.  This report used {\tt
+  \verb|\bibliographystyle|\{Bib/acmtrans\}}, a style that
+ACM\footnote{\url{http://www.acm.org/}} Transactions use.  Other
+acceptable choices are those that include author(s) last name and year
+of publication in the body of the text that cites, and the end of the
+article list of references are sorted alphabetically by the first
+author's last name.  Styles that produce a bracketed number, as in
+[5], are not acceptable to me.
+
+When using \url{http://scholar.google.com/}, set Bibliography Manager
+to use BibTeX in the preferences.  Then, the references found
+can be saved in \bibtex{} format.  Visit also
+\url{https://www.mendeley.com/},
+\url{http://bibsonomy.org/} and \url{http://zotero.org}.
+
+\section{Plagiarism}
+
+Using someoneelse's work without crediting them is plagiarism.  There
+are many software tools and web services that can pinpoint lifted
+sentences.  Quoting is ok, but must always use double- or sigle-quotes
+and cite immediately.
+
+% -eof-

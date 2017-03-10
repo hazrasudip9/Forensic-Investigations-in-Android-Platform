@@ -1,0 +1,86 @@
+\begin{figure}
+   \vspace*{-1cm}
+    \includegraphics[height=0.5\textheight]{fig01/architecture}
+    \caption{Android Architecture from \cite{architecture}}
+    
+   
+    
+  \end{figure}
+
+
+
+\begin{figure}
+   
+    \includegraphics[width=0.7\textwidth ]{fig04/fuse}
+    \caption{Filesystem in Userspace \cite{wikipedia}} 
+  \end{figure}
+
+
+
+\begin{figure}
+   
+    \includegraphics[width=0.7\textwidth ]{fig04/workingfuse}
+    \caption{Making a Call in Fuse File System \cite{fuse}} 
+  \end{figure}
+
+
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=15cm]{fig05/FUSE}
+   \caption{Proposed System Architecture}
+  \end{figure}
+
+
+
+
+
+
+
+
+
+\begin{figure}[h]
+   \centering
+   \includegraphics[width=15cm]{fig06/fusepy}
+   \caption{Mounting a Fuse File System}
+   
+  \end{figure}
+  \begin{figure}[h]
+     \centering
+     \includegraphics[width=15cm]{fig06/mnt}
+     \caption{Contents of the Mounted File System}
+     
+    \end{figure}
+
+
+
+
+\begin{figure}[h]
+   \centering
+   \textbf{Megafs.h  header Information}
+   \includegraphics[width=12cm]{fig06/mega1}
+   \caption{Megafuse.h defining supported  Fuse File Operations}
+    \includegraphics[width=12cm]{fig06/mega2}
+                  \caption{Mounted Megafuse Cloud Drive}
+   
+  \end{figure}
+
+\begin{figure}[h]
+   
+   \includegraphics[width=15cm]{fig06/mega4}
+   \caption{Running Megafuse Client}
+   \includegraphics[width=15cm]{fig06/mega3}
+        \caption{ Megafuse File System as seen by df command}
+       
+   
+  \end{figure}
+  
+
+
+
+
+
+
+
+
+

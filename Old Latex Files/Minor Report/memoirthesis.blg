@@ -1,0 +1,519 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: memoirthesis.aux
+Case mismatch error between cite keys SLEUTHKIT and Sleuthkit
+---line 102 of file memoirthesis.aux
+ : \citation{SLEUTHKIT
+ :                    }
+I'm skipping whatever remains of this command
+The style file: siam.bst
+Database file #1: android.bib
+"{" immediately follows a field part---line 916 of file android.bib
+ :   note=\url
+ :            {{http://www. quarkslab. com/dl/Android-OEM-applications-insecurity-and-backdoors-without-permission. pdf}},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1411 of file android.bib
+ :  notes = {\url{http://arxiv.org/pdf/1604.08340.pdf}}
+ :                                                     .
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2546 of file android.bib
+ : 
+ : @TechReport{Perry2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2572 of file android.bib
+ : 
+ : @InProceedings{simon2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2638 of file android.bib
+ :   title =        {Android} 
+ :                            Rooting Technique: Rage Against The Cage",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2722 of file android.bib
+ : 
+ : @Article{lee2013,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2824 of file android.bib
+ : 
+ : @InProceedings{rasthofer2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2892 of file android.bib
+ : 
+ : @Article{wei2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2962 of file android.bib
+ :   keywords =     {Android} 
+ :                            (operating system);divide and conquer
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3138 of file android.bib
+ : 
+ : @MastersThesis{kornau2010,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3199 of file android.bib
+ : 
+ : @Article{larsen2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 3268 of file android.bib
+ :                  \url{http://academiccommons.columbia.edu/download/fedora_content/download/ac:179722/CONTENT/Pappas_columbia_0054D_12409.pdf}
+ :                                                                                                                                              },
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3348 of file android.bib
+ :   institution =  "
+ :                   copperhead.co",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3357 of file android.bib
+ :   institution =  "
+ :                   copperhead.co",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3365 of file android.bib
+ :   author =       "
+ :                   Patrick Holmberg Forsyth",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3374 of file android.bib
+ :   title =        {XDA}
+ :                       -Developers {Android} Forums - Manually
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3387 of file android.bib
+ : 
+ : @Manual{FAM,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3394 of file android.bib
+ : 
+ : @Manual{LinuxAudit,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3401 of file android.bib
+ : 
+ : @Manual{Hideprocess,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3408 of file android.bib
+ : 
+ : @InCollection{kizza2013,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3419 of file android.bib
+ :   title =        {Android} 
+ :                            mobile security: {A} comprehensive evaluation
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3473 of file android.bib
+ : 
+ : @Article{Yu2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3519 of file android.bib
+ :   title =        {Android} 
+ :                            Security Data and Research Directions",
+I'm skipping whatever remains of this entry
+"," immediately follows an entry type---line 3541 of file android.bib
+ :                  Joyent, Adobe, Macromedia, @stake
+ :                                                   , and the National
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 3602 of file android.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3607 of file android.bib
+ :   OPTkey =       "
+ :                   ",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3848 of file android.bib
+ :   OPTcrossref =  "
+ :                   ",
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 3882 of file android.bib
+ :   keywords =     {Android}, dalvik 
+ :                                    hooking, software fault isolation",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3926 of file android.bib
+ : 
+ : @Article{kroahhartman,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3936 of file android.bib
+ :   year =         "
+ :                   2012",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3947 of file android.bib
+ : 
+ : @TechReport{Choudhary2006,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3961 of file android.bib
+ : 
+ : @TechReport{Mateti2015ROM,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 3968 of file android.bib
+ :   key =          {Android}, network
+ :                                    , ombudsman, filtering,
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 3981 of file android.bib
+ :   key =          {Android}, network
+ :                                    , ombudsman, filtering,
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 3994 of file android.bib
+ :   key =          {Android}, network
+ :                                    , ombudsman, filtering,
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 4006 of file android.bib
+ :   key =          {Android}, network
+ :                                    , cloud storage, crowd-sourcing,
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 4018 of file android.bib
+ :   key =          {Android}, network
+ :                                    , ombudsman, filtering,
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 4032 of file android.bib
+ :   key =          {Android}, network
+ :                                    , ombudsman, filtering,
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 4045 of file android.bib
+ :   key =          {Android}, network
+ :                                    , ombudsman, filtering,
+I'm skipping whatever remains of this entry
+"," immediately follows a field name---line 4059 of file android.bib
+ :   key =          {Android}, network
+ :                                    , ombudsman, filtering,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4083 of file android.bib
+ : 
+ : @Misc{AsishGit2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4092 of file android.bib
+ : 
+ : @InProceedings{mateti2003,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 4107 of file android.bib
+ :                  \url{http://cecs.wright.edu/~pmateti/Students/SunilGadi/sgadi-ms-thesis.pdf}
+ :                                                                                              },
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4118 of file android.bib
+ : 
+ : @Article{shabtai2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4225 of file android.bib
+ : 
+ : @Article{gianluca2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4233 of file android.bib
+ : 
+ : @InCollection{armando2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4328 of file android.bib
+ :   author =       "
+ :                   Lucas Davi and Alexandra Dmitrienko and Ahmad-Reza
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 4357 of file android.bib
+ :                  \url{http://www.ma.rhul.ac.uk/static/techrep/2015/RHUL-MA-2015-4.pdf}
+ :                                                                                       },
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4443 of file android.bib
+ : 
+ : @Article{baddar2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4519 of file android.bib
+ :   key =          "
+ :                   ",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4611 of file android.bib
+ : 
+ : @InProceedings{azim2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4645 of file android.bib
+ :   institution =  "
+ :                   research.zscaler.com",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4669 of file android.bib
+ : 
+ : @Article{varghese2011,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 4760 of file android.bib
+ :                  \url
+ :                      {http://www.medien.ifi.lmu.de/iwssi2011/},
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 4762 of file android.bib
+ :                  Sciences sebastian.hoebarth@fh-hagenberg.at 
+ :                                                              Rene
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 4764 of file android.bib
+ :                  rene.mayrhofer@fh-hagenberg.at 
+ :                                                 ABSTRACT Exploits on
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4867 of file android.bib
+ :   title =        {Android} 
+ :                            Bound Service: {IPC} with Messenger",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4901 of file android.bib
+ : 
+ : @InProceedings{Yin2007,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4958 of file android.bib
+ : 
+ : @InProceedings{Fiebig2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 5117 of file android.bib
+ :                  \url{https://www.ma.rhul.ac.uk/static/techrep/2015/RHUL-MA-2015-1.pdf}
+ :                                                                                        },
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5150 of file android.bib
+ : 
+ : @Article{jaybhaye2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5180 of file android.bib
+ : 
+ : @Manual{Xposed-rovo89,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5215 of file android.bib
+ : 
+ : @Article{park2015sbisurban,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5251 of file android.bib
+ : 
+ : @Misc{OnHaxAndroRat2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5267 of file android.bib
+ : 
+ : @Article{anwar2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5356 of file android.bib
+ : 
+ : @Article{sun2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 5446 of file android.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5913 of file android.bib
+ :   OPTcrossref =  "
+ :                   ",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5932 of file android.bib
+ :   title =        {IccTA}
+ :                         : Detecting Inter-Component Privacy Leaks in
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6041 of file android.bib
+ :   
+ :   note =         {\url{http://cs.gmu.edu/~tr-admin/papers/GMU-CS-TR-2015-1.pdf}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6189 of file android.bib
+ : 
+ : @Manual{LollipopSrc,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6202 of file android.bib
+ : 
+ : @Article{Lina2013,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6256 of file android.bib
+ :   title =        {Android} 
+ :                            forensics: Interpretation of timestamps",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6845 of file android.bib
+ : 
+ : @Article{Elisha-2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6881 of file android.bib
+ : 
+ : @Article{do2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6900 of file android.bib
+ : 
+ : @InProceedings{cao2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6930 of file android.bib
+ : 
+ : @InProceedings{pak2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6989 of file android.bib
+ :   keywords =     {Android}, 
+ :                             {Android} camera service, spy, transportation
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7002 of file android.bib
+ : 
+ : @InProceedings{jia2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 7094 of file android.bib
+ :                  
+ :                  of Computer Science, ETH Zurich
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+""" immediately follows an entry type---line 7095 of file android.bib
+ :                  {firstname.lastname}@inf.ethz.ch
+ :                                                  ",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7135 of file android.bib
+ :   title =        {POSTER}
+ :                          : LocMask: {A} Location Privacy Protection
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7165 of file android.bib
+ :   title =        {IccTA}
+ :                         : Detecting Inter-Component Privacy Leaks in
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7208 of file android.bib
+ : 
+ : @InCollection{Droidapiminer2013,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7260 of file android.bib
+ :   booktitle =    "
+ :                   Financial Cryptography and Data Security (FC'14)",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7337 of file android.bib
+ : 
+ : @InCollection{apostolopoulos2013,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7548 of file android.bib
+ : 
+ : @InProceedings{belay2014ix,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7690 of file android.bib
+ :   title =        {XmAndroid}
+ :                             : {A} new {Android} evolution to mitigate
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7793 of file android.bib
+ :   author =       "
+ :                   Erika Chin and Adrienne Porter Felt and Kate Greenwood
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7862 of file android.bib
+ :   year =         "
+ :                   2014",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7907 of file android.bib
+ : 
+ : @InProceedings{criswell2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7958 of file android.bib
+ :   keywords =     {Android} 
+ :                            malware, class dependence graphs, familial
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7979 of file android.bib
+ :   publisher =    "
+ :                   IGI Global",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 8020 of file android.bib
+ : 
+ : @Manual{eigler2014,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 8036 of file android.bib
+ : 
+ : @InProceedings{eigler2006,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 8187 of file android.bib
+ :                  TaintDroid 
+ :                             download:
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 8242 of file android.bib
+ : 
+ : @InProceedings{Felt-2011,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 8253 of file android.bib
+ :   abstract =     {Android} 
+ :                            provides third-party applications with an
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 8307 of file android.bib
+ :   keywords =     {Android}
+ :                           ; least privilege; permissions",
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 11957 of file android.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: cloud-comp.bib
+Database file #3: cloud-storage.bib
+Repeated entry---line 121 of file cloud-storage.bib
+ : @article{yang2016
+ :                  ,
+I'm skipping whatever remains of this entry
+Database file #4: forensics.bib
+I was expecting a `,' or a `}'---line 16 of file forensics.bib
+ : 
+ : @article{akarawita_2015, title={ANDROPHSY -- Forensic
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "july" is undefined
+--line 270 of file forensics.bib
+Database file #5: misc.bib
+Warning--I didn't find a database entry for "mylonas_meletiadi"
+Warning--empty year in mahajan2013
+You've used 14 entries,
+            2030 wiz_defined-function locations,
+            586 strings with 6259 characters,
+and the built_in function-call counts, 4167 in all, are:
+= -- 396
+> -- 185
+< -- 0
++ -- 75
+- -- 60
+* -- 304
+:= -- 685
+add.period$ -- 22
+call.type$ -- 14
+change.case$ -- 71
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 198
+empty$ -- 314
+format.name$ -- 60
+if$ -- 868
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 8
+newline$ -- 53
+num.names$ -- 28
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 58
+quote$ -- 0
+skip$ -- 149
+stack$ -- 0
+substring$ -- 196
+swap$ -- 72
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 1
+while$ -- 41
+width$ -- 16
+write$ -- 140
+(There were 103 error messages)

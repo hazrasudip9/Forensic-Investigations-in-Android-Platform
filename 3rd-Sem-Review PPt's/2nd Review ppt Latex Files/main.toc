@@ -1,0 +1,24 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Why Android}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Why Mobile Forensics is Important}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Problem Scenario}{7}{0}{1}
+\beamer@sectionintoc {2}{Background}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Types of Mobile Forensics Investigation}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Forensic Support Framework}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Shortfalls}{13}{0}{2}
+\beamer@subsectionintoc {2}{4}{Possible Solutions}{15}{0}{2}
+\beamer@subsectionintoc {2}{5}{File System in User Space}{17}{0}{2}
+\beamer@subsectionintoc {2}{6}{Cloud File System}{19}{0}{2}
+\beamer@subsectionintoc {2}{7}{Rootkits}{21}{0}{2}
+\beamer@sectionintoc {3}{Problem Definition}{23}{0}{3}
+\beamer@sectionintoc {4}{Solution Outline}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Modules}{25}{0}{4}
+\beamer@subsectionintoc {4}{2}{Cloud Storage API's}{28}{0}{4}
+\beamer@sectionintoc {5}{Implementation}{30}{0}{5}
+\beamer@subsectionintoc {5}{1}{SleuthKit Forensics Toolkit}{30}{0}{5}
+\beamer@subsectionintoc {5}{2}{Recovered Email Id's}{32}{0}{5}
+\beamer@subsectionintoc {5}{3}{Recovered Images}{34}{0}{5}
+\beamer@subsectionintoc {5}{4}{Hiding a Fuse File System using Rootkit-1}{36}{0}{5}
+\beamer@subsectionintoc {5}{5}{Hiding a Fuse File System using Rootkit-2}{38}{0}{5}
+\beamer@sectionintoc {6}{Summary}{40}{0}{6}

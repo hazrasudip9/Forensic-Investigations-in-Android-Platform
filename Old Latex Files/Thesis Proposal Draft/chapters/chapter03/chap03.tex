@@ -1,0 +1,15 @@
+%
+% File: chap03.tex
+% Author: Gayathri Manikutty
+% Description: System Description chapter.
+%
+\let\textcircled=\pgftextcircled
+\chapter{Problem Statement}
+\label{chap:problem statement}
+
+\initial{T}he project is a part of an ongoing project. The Previous Work has been done by Karthik Et.al \cite{karthik_2016} and Aiyyappan Et.al \cite{aiyyappan_2015}. Aiyyappan Et.al ported the inotifywait to android. File events are tracked by inotify tool and the inotify source was complied using NDK programming and compiled to a native shared object library. The native function excepts a directory to track and all file events are tracked. He also created the forensic examiner toolkit which runs on linux machine to image, recover and collect device speciofic data from the cloud. Some amount of stealth was alos enabled using hidepid =2 , where users can only see their own processes and process id's are also hidden from /proc also.
+
+Karthik Et.al created the android apk which extensively tracks the user activities like GPS,Sensor data,WIFI Metadata,Sms,Call recording and keylogger was also included in the apk , which could be configured when the rom is flashed and used for the first time, after that there is no dialog whatsoever and the app runs in tealth mode and saves all the forensically relevant data in/forrensic partition and oppurtunistically uploads it to the cloud.However the background process can be discovered if the user roots the phone and gets root access , Then he /she can easily see all the background process ruunning and can also discover the /forensic partition , compromising the evidence , even though the partition is encrypted but it will still create suspicion in the suspects mind. 
+\section{Aim}
+The solution is to create A Fuse File System and enable Stealth Features and Copy all 
+Forensically Relevant Data in that File System. There will be two fuse file system one will directly mount the cloud storage in the linux level and the other file system will be used to store all the forensically relevant data and it will copy the data to the cloud storage file system which will oppurtunistically sync with the cloud storage online. Both file system will be hidden using kernel Rootkits.

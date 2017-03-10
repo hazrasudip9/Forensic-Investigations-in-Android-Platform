@@ -1,0 +1,35 @@
+
+This algorithm is written in pseudo code and uses specially defined
+math symbols.
+
+\begin{figure}[b]
+\begin{minipage}{.5\textwidth}
+\begin{algorithm}[H]\small
+  $K_1  := x := 0$\;
+  \ForAll {$A \sqsubseteq B \in \OMath_1$} {
+    UN \bang update$(B_{U}, A)$ \query $x$\;
+    $K_1 += x$\;
+  }
+~\\[4mm]
+  \caption{\small R1: $A \sqsubseteq B \Rightarrow U[B] \sqsubseteq U[A]$}
+  \label{pseudo-R1-2}
+\end{algorithm}
+\end{minipage}
+\textcolor{Gray}\quad\textcolor{Gray}{\vrule}\quad
+\begin{minipage}{.5\textwidth}
+\begin{algorithm}[H]\small
+  $K_2 := x := 0$\;
+  \ForAll {$A_1 \sqcap\dots\sqcap A_n\sqsubseteq B \in \OMath_2$} {
+    UN \bang $\sqcap(B_{U}, \{A_1, \dots, A_n\})$ \query $x$\;
+    $K_2 += x$\;
+  }
+  \label{pseudo-R2-2}
+  \caption{\small R2: $A_1 \sqcap\dots\sqcap A_n\sqsubseteq B \Rightarrow
+    U[B] \cupEq U[A_1] \cap \dots \cap U[A_n]$}
+\end{algorithm}
+\end{minipage}
+\caption{Two Algorithms Side-by-Side}
+\end{figure}
+
+test line
+\label{TwoAlgs}

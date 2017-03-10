@@ -1,0 +1,43 @@
+\chapter{Problem Statement}
+\label{chap:problem statement}
+
+The project is a part of an ongoing project on Proactive Forensics. The Previous Work has been done by Karthik Et.al\cite{Karthik2016}and Aiyyappan Et.al\cite{Aiyyappan2015}. Aiyyappan ported the inotifywait to android. File events are tracked by inotify tool and the inotify source was complied using NDK programming and compiled to a native shared object library. The native function excepts a directory to track and all file events are tracked. He also created the forensic examiner toolkit which runs on linux machine to image, recover and collect device specific data from the cloud. Some amount of stealth was also enabled using hidepid =2 , where users can only see their own processes and process id's are also hidden from /proc also.
+
+Karthik Et.al created the android apk which extensively tracks the user activities like GPS,Sensor data,WIFI Metadata,Sms,Call recording and keylogger was also included in the apk , which could be configured when the rom is flashed and used for the first time, after that there is no dialog whatsoever and the app runs in stealth mode and saves all the forensically relevant data in/forensic partition and opportunistically uploads it to the cloud.However the background process can be discovered if the user roots the phone and gets root access , Then he /she can easily see all the background process running and can also discover the /forensic partition , compromising the evidence , even though the partition is encrypted but it will still create suspicion in the suspects mind. 
+\newpage
+\section{Aim}
+There are two possible solutions in this scenario:\\
+\begin{itemize}
+\item 1. The /forensic partition can either be encrypted and stored in the device,However it may led to suspicion as the user will be able to read all data except that partition.\\
+
+\item 2. Another solution is to create A Fuse File System and store the forensically relevant data in that file system.The file system can then be hidden using rootkits which will subvert commands such as df and du and prevent any normal user for detecting the file system.
+
+\end{itemize}
+\bigskip
+
+The Proposed Framework Will be Consisting of:\\
+\begin{itemize}
+\item An EXT4 file system which will store the forensically relevant data from the device.The forensic service designed by  Karthik \cite{Karthik2016} and Aiyappan \cite{Aiyyappan2015} will store all the user data obtained from the device in this file system.
+
+\item An user space file system based on FUSE library which will mount the cloud storage as a local drive in the device accessible to the forensic service.The cloud drive will support major cloud storage service providers and will be configurable using an apk and an config file. The stealth file system will copy itself piece by piece to the cloud file system which will then opportunistically upload it to the cloud storage.This will give more storage for the forensic service to store greater amount of evidence in comparison to limited amount of device storage.
+
+\item A kernel level android rootkit which will hide both the EXT4 File system and the cloud file system from typical linux command like df,du and mount commands by hooking the sys\_call\_table and subverting the systems calls.
+
+\item Combining All the above we get a stealth file system with cloud file system support which will be mounted below the android software stack in the linux level.
+ 
+\end{itemize}
+\bigskip
+
+Advantages of Mounting The cloud storage as local file system:
+\begin{itemize}
+\item We will be able to do all file system operations possible such as create, delete, modify files and directories.
+\item All applications will see the mounted cloud storage as local storage and will be able to perform all operations possible with a local file system.
+\item The storage capacity will increase manifold, typical modern android devices have storage capacity of maximum 64GB however if we are mounting the cloud drive as local storage , we are potentially having unlimited access to the storage . The storage capacity will increase manifold with terrabytes of storage space.
+\item The Android Cloud Storage Service(ACCS) will also be employed in our companion projects :\\
+\tt 
+1.Detecting Trojans in Android Devices by Manuel Antony.\\
+\tt 
+2.Detecting  Android Ransomware Within The
+Device Using Crowdsourcing by Jithin Chandra Mohan.
+\end{itemize}
+

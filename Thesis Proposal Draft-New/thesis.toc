@@ -1,0 +1,36 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Smartphone OS Market Share}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Android Architecture}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Linux Kernel}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Libraries}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Android Runtime}{4}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Application Framework}{5}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Applications}{5}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Applications Used in Criminal Activites}{6}{subsection.1.2.6}
+\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Fuse(File system in User Space)}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Cloudfs}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Stealthfs via Rootkits}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}User Level Rootkits}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Kernel Level Rootkits}{13}{subsection.2.3.2}
+\contentsline {subsubsection}{Hooking System Calls}{13}{section*.4}
+\contentsline {subsubsection}{Direct Kernel Object Manipulation (DKOM)}{14}{section*.5}
+\contentsline {subsubsection}{Interrupt Descriptor Table (IDT) Hooking}{14}{section*.6}
+\contentsline {chapter}{\numberline {3}Problem Statement}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Aim}{16}{section.3.1}
+\contentsline {chapter}{\numberline {4}Stealth File System with Cloud Support}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1} Modules Description:}{18}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Forensic Service}{18}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Stealth File Systems}{20}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Cloud File System}{20}{subsection.4.1.3}
+\contentsline {chapter}{\numberline {5}Results and Discussion}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fuse File System in Linux}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}Mounting a Demo Fuse File System in Python}{23}{section.5.2}
+\contentsline {section}{\numberline {5.3}Mounting a Cloud Drive as Local File System}{24}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}\href {https://github.com/matteoserva/MegaFuse}{MegaFuse}}{24}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Evidence Recovery using Sleuthkit Forensic Recovery Tool}{25}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Results}{25}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Hiding File Systems Using Rootkits}{25}{section.5.5}
+\contentsline {chapter}{\numberline {6}Related Work}{30}{chapter.6}
+\contentsline {chapter}{\numberline {7}Development Plan}{34}{chapter.7}
+\contentsline {section}{\numberline {7.1}Things To be Done}{34}{section.7.1}

@@ -1,0 +1,42 @@
+\select@language {english}
+\par \penalty \@M \unhbox \voidb@x \hbox {}\hfill {\nag@@warning@vi \bfseries Page}\par \penalty \@M 
+\contentsline {chapter}{List of Tables}{iii}{section*.1}
+\contentsline {chapter}{List of Figures}{v}{section*.2}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Smartphone OS Market Share}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Android Architecture}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Linux Kernel}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Libraries}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Android Runtime}{4}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Application Framework}{4}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Applications}{4}{subsection.1.2.5}
+\contentsline {chapter}{\chapternumberline {2}Related Work}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Androphsy: Forensic Framework for Android }{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Smartphone Forensics : A proactive Investigative Approach}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Frost: Forensic Recovery of Scambled Telephones }{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Android Forensics:Automated Data Collection and Reporting Tool for Mobile Device }{6}{section.2.4}
+\contentsline {section}{\numberline {2.5}Specifying a Realistic File System }{6}{section.2.5}
+\contentsline {section}{\numberline {2.6}A Fast Boot, Fast Shutdown Technique for Android OS Devices}{6}{section.2.6}
+\contentsline {section}{\numberline {2.7}Internet-Scale File Analysis}{6}{section.2.7}
+\contentsline {section}{\numberline {2.8}Subverting Operating System Properties Through Evolutionary DKOM Attacks}{7}{section.2.8}
+\contentsline {section}{\numberline {2.9}Forensic Analysis of Instant Messenger Applications on Android devices}{7}{section.2.9}
+\contentsline {section}{\numberline {2.10}Forensics Analysis of Whatsapp Messenger on Android Smartphones }{7}{section.2.10}
+\contentsline {section}{\numberline {2.11}M.S Thesis on Forensic Analysis of whatsapp on Android Smartphone Neha Thakur }{7}{section.2.11}
+\contentsline {chapter}{\chapternumberline {3}Problem Statement}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Aim}{9}{section.3.1}
+\contentsline {chapter}{\chapternumberline {4}Background}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fuse(File system in User Space)}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Cloudfs}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Stealthfs via Rootkits}{13}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}User Level Rootkits}{14}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Kernel Level Rootkits}{14}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Hooking System Calls}{14}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Direct Kernel Object Manipulation (DKOM)}{15}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}Interrupt Descriptor Table (IDT) Hooking}{15}{subsubsection.4.3.2.3}
+\contentsline {chapter}{\chapternumberline {5}Proposed System}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1} Modules Description:}{18}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Stealth File Systems}{18}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Cloud File System}{18}{subsection.5.1.2}
+\contentsline {chapter}{\chapternumberline {6}Work Done Till Now}{19}{chapter.6}
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{21}{appendix.A}
+\contentsline {chapter}{Bibliography}{23}{section*.4}

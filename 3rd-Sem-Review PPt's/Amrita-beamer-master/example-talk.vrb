@@ -1,0 +1,38 @@
+\frametitle{Proposed Algorithm}
+\begin{algorithm}[H]
+%\algsetup{linenosize=\tiny}
+   \tiny
+\label{euclid}
+\begin{algorithmic}
+\Procedure{Multiplicative Inverse}{$A_{3}[\hspace{1mm}]$, $B_{3}[\hspace{1mm}]$}
+\State $C\SB{1} = A\SB{2} = B\SB{2} = 0$;
+\While {($B\SB{3} \textgreater 1$)} \Comment{Step 1 do}
+\State $Q = 0$;
+\State $Temp = B\SB{3}$;
+\While {($A\SB{}3 > Temp \parallel BitSize(C) \geq BitSize(Temp)$)}
+\State $Q\SB{1} = 1$;
+\While {($A\SB{3MSB} == B\SB{3MSB}$)}
+\State $B\SB{3} = B\SB{3} << LinearLeftShift$ ;
+\State $Q\SB{1} = Q\SB{1} * 2$;
+\EndWhile
+\State $Q = Q + Q\SB{1}$;
+\State $A\SB{3} = A\SB{3}[\hspace{1mm}] \oplus B\SB{3}[\hspace{1mm}]$;
+\State $B\SB{3} = Temp$;
+\EndWhile
+\State $A\SB{2} = B\SB{2}; B\SB{3} = A\SB{3}; A\SB{3} = Temp$;
+\State $N = BitSize(Q)$; \Comment {Binary Bit Size of Q}
+\State $Temp = B\SB{2}; C\SB{2}=0;$\Comment {Step2}
+\While{($N\geq1$)}
+\State $C\SB{2} = 0\SB{d}$;
+\If {($Q\SB{N}==1$)}\Comment {Testing if Nth bit of Q is 1}
+\State $C\SB{1}=B\SB{2}<< N-1$; \Comment{Linear left shift by N-1 times}
+\State $C\SB{2} = C\SB{2}\oplus C\SB{1}$;
+\EndIf
+\State $N--$;
+\EndWhile
+\State $B\SB{2} = C\SB{2}; A\SB{2} = Temp; B\SB{2}=B\SB{2} \oplus A\SB{2};$ \Comment  {Multiplicative Inverse}
+\EndWhile
+\EndProcedure
+\end{algorithmic}
+% \caption{\tiny {Euclidean Algorithm}}
+\end{algorithm}

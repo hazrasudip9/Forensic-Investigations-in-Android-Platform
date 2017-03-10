@@ -1,0 +1,45 @@
+
+
+This thesis addresses the development of high quality sniffer
+software. The methods applied to analyze and enhance the quality of a
+software are focussed. Software quality has evolved over years as a
+topic of interest for academe and not in real practical sense. We
+intend to present the need for high quality in software.  The software
+engineering methods that analyze and enhance the quality of software
+are disserted.
+
+The thesis discusses the quality in software with respect to a class
+of tools known as {\em Sniffers}. Sniffers are network monitoring
+tools used in the administration of network security. The software
+quality of these tools has been dissatisfactory for a long time, which
+by itself make the tools insecure. We formalized the objectives to be
+achieved and methods to be followed to produce high quality
+software. We correlate the weakness involved in software quality to
+software security. The most dangerous and evolving problems related to
+vulnerablility in programs are focussed.
+
+We analyzed a few existing sniffer software to determine the cause for
+poor quality and the methods to eliminate the problems. We used static
+and dynamic software quality checking tools to assess the quality of
+these programs. We classified the various software related errors and
+problems in each of these programs. These errors justify the weakness
+of these program from a software quality perspective. We relate the
+vulnerable and unreliable nature of a few sniffer software to poor
+quality defined in the software. The nature of the software quality
+checking tools is analyzed to determine the problems associated with
+the tools.
+
+We developed a distributed sniffer to allow monitoring multiple
+networks and output desired packet detail(s). We designed our sniffer
+to include a packet capture program, collector program and viewer
+program, running on same or different networks. We established the
+distributed nature of a sniffer software by supporting multiple
+capture and viewer programs. We apply software engineering methods to
+eliminate the quality issues associated with software, in general. We
+concentrate on our analysis on existing sniffers to formulate methods
+that will avoid any weakness attributed towards the quality of our
+sniffer software. We prepare our software for manual audit using
+documentation tools. We produce the design of our software using the
+well known {\em Literate Programming} software documentation tool.
+
+\newpage

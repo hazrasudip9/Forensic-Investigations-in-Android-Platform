@@ -1,0 +1,89 @@
+\documentclass[letter]{report}
+% change draft to final when ready
+% letter is US paper size 8.5 x 11.0 inches (215.9 x 279.4 mm)
+% a4 is India/Europe 210 x 297 mm size
+
+\newcommand\thesisTitle{MTech Thesis [Drafts] Template for AmritaU}
+% title  of *your* thesis in Title Case
+
+\usepackage[final]{graphicx}
+% keep final to render figures; use draft to just have rectangles
+
+\usepackage[usenames,dvipsnames]{color}
+\PassOptionsToPackage{hyphens,obeyspaces,spaces}{url}
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={\thesisTitle},
+    pdfauthor={www.wright.edu/\~pmateti},
+    pdfsubject={Latex and Theses},
+    pdfkeywords=Latex and Theses,
+    pdfcreator={emacs},
+    pdfproducer={pdflatex},
+    pdfnewwindow=true,
+    colorlinks=true,        % false: boxed; true: colored
+    linkcolor=blue,
+    citecolor=Brown,
+    filecolor=blue,
+    urlcolor=Brown,
+    bookmarks=true,
+    unicode=false,
+    pdftoolbar=false,
+    pdfmenubar=false,
+    pdffitwindow=true,
+    pdfstartview={FitH},
+}
+\usepackage{algorithm2e}
+\usepackage[square]{natbib}
+
+% helpful macros while writing drafts of the proposal/ thesis
+\newcommand\TBD[1]{\textcolor{red}{TBD~~#1}}
+\newcommand\TBDMP[1]{{#1}\footnote{To be rewritten more precisely.}}
+\newcommand\TBDMTBW{\quad More to be written.}
+\newcommand\TBDFIG{{\vskip 2in}\footnote{Insert a figure here.}}
+\newcommand\bumppages[1]{\addtocounter{page}{#1}}
+\newcommand\KeepButNotInclude[1]{}
+
+\newcommand\singleSpacing{\def\baselinestretch{1.0}}
+\newcommand\doubleSpacing{\def\doubleSpacing{\def\baselinestretch{1.37}\normalsize}}
+
+
+% LaTeX macros specific to this template example
+\newcommand\TEX{\TeX{}}
+\newcommand\tex{\TeX{~}}
+\newcommand\web{{\tt WEB }}
+\newcommand\latex{\LaTeX{~}}
+\newcommand{\bibtex}{BiBTeX{~}}
+
+\begin{document}
+
+\pagestyle{plain}\newpage\pagenumbering{roman}\setcounter{page}{1}
+
+\input{AmritaU/titlePage}
+\input{AmritaU/approvalPage}
+\input{AmritaU/abstract}
+\tableofcontents
+\listoftables
+\listoffigures
+\input{AmritaU/acknowledgements}
+\pagestyle{headings}\newpage\pagenumbering{arabic}\setcounter{page}{1}
+
+\input{Chapters/chapter1}
+\input{Chapters/chapter2}
+\input{Chapters/chapter3}
+\input{Chapters/chapter4}
+\input{Chapters/chapter5}
+\input{Chapters/chapter6}
+\input{Chapters/chapter7}
+\input{Chapters/chapter8}
+
+% \input{Chapters/tbd}            % delete this line when finished
+   
+\bibliographystyle{LaTeX/acmtranspm}
+
+
+\bibliography{bibliography/misc}
+
+
+
+
+\end{document}

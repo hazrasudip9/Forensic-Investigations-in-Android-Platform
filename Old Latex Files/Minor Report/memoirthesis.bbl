@@ -1,0 +1,80 @@
+\begin{thebibliography}{10}
+
+\bibitem{Aiyyappan2015}
+{\sc P.~Aiyyappan}, {\em Android forensic support framework}, Master's thesis,
+  Amrita Vishwa Vidyapeetham, Ettimadai, Tamil Nadu 641112, India, June 2015.
+\newblock Advisor: Prabhaker Mateti,
+  \url{http://cecs.wright.edu/~pmateti/Students/index.html}, key = {Android},
+  Mobile Forensics, {Android} Forensics, Crowd-Sourcing.
+
+\bibitem{akarawita_2015}
+{\sc I.~U. Akarawita, A.~B. Perera, and A.~Atukorale}, {\em Androphsy --
+  forensic framework for android}, 2015 Fifteenth International Conference on
+  Advances in ICT for Emerging Regions (ICTer),  (2015).
+
+\bibitem{anglano_2014}
+{\sc C.~Anglano}, {\em Forensic analysis of whatsapp messenger on android
+  smartphones}, Digital Investigation, 11 (2014), p.~201–213.
+
+\bibitem{Sleuthkit}
+{\sc B.~Carrier, D.~Farmer, and W.~Venema}, {\em Sleuthkit: Open Source Digital
+  Forensics}, sleuthkit.org, 2015.
+
+\bibitem{graziano2016}
+{\sc M.~Graziano, L.~Flore, A.~Lanzi, and D.~Balzarotti}, {\em Subverting
+  operating system properties through evolutionary dkom attacks.}, in DIMVA,
+  Springer, 2016, pp.~3--24.
+
+\bibitem{Grovera2013}
+{\sc J.~Grovera}, {\em {Android} forensics: Automated data collection and
+  reporting from a mobile device}, Digital Investigation,  (2013),
+  pp.~S12--S20.
+\newblock The Proceedings of the Thirteenth Annual Digital Forensics Research
+  (DFRWS) Conference.
+
+\bibitem{hanif2015}
+{\sc Z.~Hanif, T.~K. Lengyel, and G.~D. Webster}, {\em Internet-scale file
+  analysis}, Black Hat USA,  (2015).
+
+\bibitem{mahajan2013}
+{\sc A.~Mahajan, M.~Dahiya, and H.~Sanghvi}, {\em Forensic {Analysis} of
+  {Instant} {Messenger} {Applications} on {Android} devices}, International
+  Journal of Computer Applications, 68.
+\newblock \url{http://research.ijcaonline.org/volume68/number8/pxc3886965.pdf}.
+
+\bibitem{muller2013frost}
+{\sc T.~M{\"u}ller and M.~Spreitzenbarth}, {\em Frost}, in Applied Cryptography
+  and Network Security, Springer, 2013, pp.~373--388.
+\newblock \url{https://www1.cs.fau.de/frost}.
+
+\bibitem{Writing_a_FUSE_Filesystem}
+{\sc J.~J. Pfeiffer}, {\em Writing a fuse filesystem: a tutorial}.
+\newblock \url{http://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/}, 03 2016.
+
+\bibitem{Karthik2016}
+{\sc K.~M. Rao}, {\em Proactive forensic support for android devices}, Master's
+  thesis, Amrita Vishwa Vidyapeetham, Ettimadai, Tamil Nadu 641112, India,
+  2016.
+\newblock Advisor: Prabhaker Mateti,
+  \url{http://cecs.wright.edu/~pmateti/Students/index.html}, key = {Android},
+  Mobile Forensics, {Android} Forensics, Crowd-Sourcing.
+
+\bibitem{Thakur2013}
+{\sc N.~S. Thakur}, {\em Forensic analysis of whatsapp on {Android}
+  smartphones}, Master's thesis, University of New Orleans, 2013.
+\newblock
+  \url{http://scholarworks.uno.edu/cgi/viewcontent.cgi?article=2736&context=td},.
+
+\bibitem{wiki:Filesystem_in_Userspace}
+{\sc Wikipedia}, {\em {Filesystem in Userspace} --- {W}ikipedia{,} the free
+  encyclopedia}.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Filesystem%20in%20Userspace&oldid=748163155},
+  2016.
+
+\bibitem{yang2016}
+{\sc X.~Yang, P.~Shi, H.~Sun, W.~Zheng, and J.~Alves-Foss}, {\em A fast boot,
+  fast shutdown technique for android os devices}, Computer, 49 (2016),
+  pp.~62--68.
+
+\end{thebibliography}

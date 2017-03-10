@@ -1,0 +1,150 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem[\protect\citeauthoryear{Aiyyappan}{Aiyyappan}{2015}]%
+        {Aiyyappan2015}
+{PS Aiyyappan}. 2015.
+\newblock {\em Android Forensic Support Framework}.
+\newblock Master's\ thesis. Amrita Vishwa Vidyapeetham, Ettimadai, Tamil Nadu
+  641112, India.
+\newblock
+\newblock
+\shownote{Advisor: Prabhaker Mateti,
+  \url{http://cecs.wright.edu/~pmateti/Students/index.html}, key = {Android},
+  Mobile Forensics, {Android} Forensics, Crowd-Sourcing.}
+
+
+
+\bibitem[\protect\citeauthoryear{Carrier, Farmer, and Venema}{Carrier
+  et~al\mbox{.}}{2015}]%
+        {Sleuthkit}
+{Brian Carrier}, {Dan Farmer}, {and} {Wietse Venema}. 2015.
+\newblock {\em Sleuthkit: Open Source Digital Forensics}.
+\newblock sleuthkit.org.
+\newblock
+
+:: Autopsy is a GUI-based program that can analyze hard drives and smart
+  phones. It has a plug-in architecture that allows you to find add-on modules
+  or develop custom modules in Java or Python. The Sleuth Kit is a collection
+  of command line tools and a C library that allows you to analyze disk images
+  and recover files from them. It is used behind the scenes in Autopsy and many
+  other open source and commercial forensics tools. ;;
+
+\bibitem[\protect\citeauthoryear{Graziano, Flore, Lanzi, and
+  Balzarotti}{Graziano et~al\mbox{.}}{2016}]%
+        {graziano2016}
+{Mariano Graziano}, {Lorenzo Flore}, {Andrea Lanzi}, {and} {Davide Balzarotti}.
+  2016.
+\newblock \showarticletitle{Subverting Operating System Properties Through
+  Evolutionary DKOM Attacks.}. In {\em DIMVA}. Springer, 3--24.
+\newblock
+
+
+
+\bibitem[\protect\citeauthoryear{Grovera}{Grovera}{}]%
+        {Grovera2013}
+{Justin Grovera}.
+\newblock \showarticletitle{Android}.
+\newblock  (????).
+\newblock
+
+
+
+\bibitem[\protect\citeauthoryear{Hanif, Lengyel, and Webster}{Hanif
+  et~al\mbox{.}}{2015}]%
+        {hanif2015}
+{Zach Hanif}, {Tamas~K Lengyel}, {and} {George~D Webster}. 2015.
+\newblock \showarticletitle{Internet-Scale File Analysis}.
+\newblock {\em Black Hat USA\/} (2015).
+\newblock
+
+
+
+\bibitem[\protect\citeauthoryear{M{\"u}ller and Spreitzenbarth}{M{\"u}ller and
+  Spreitzenbarth}{2013}]%
+        {muller2013frost}
+{Tilo M{\"u}ller} {and} {Michael Spreitzenbarth}. 2013.
+\newblock \showarticletitle{Frost}. In {\em Applied Cryptography and Network
+  Security}. Springer, 373--388.
+\newblock
+\newblock
+\shownote{\url{https://www1.cs.fau.de/frost}.}
+
+:: Friedrich-Alexander University of Erlangen-Nuremberg; October 2012;
+  Abstract. At the end of 2011, Google released version 4.0 of its Android
+  operating system for smartphones. For the first time, Android smartphone
+  owners were supplied with a disk encryption feature that transparently
+  scrambles user partitions, thus protecting sensitive user information against
+  targeted attacks that bypass screen locks. On the downside, scrambled
+  telephones are a a nightmare for IT forensics and law enforcement, because
+  once the power of a scrambled device is cut any chance other than bruteforce
+  is lost to recover data. In this paper we present Frost, a tool set that
+  supports the forensic recovery of scrambled telephones. To this end we
+  perform cold boot attacks against Android smartphones and retrieve disk
+  encryption keys from RAM. We show that cold boot attacks against Android
+  phones are generally possible for the first time, and we perform our attacks
+  practically against Galaxy Nexus devices from Samsung. To break disk
+  encryption, the bootloader must be unlocked before the attack because
+  scrambled user partitions are wiped during unlocking. However, we show that
+  cold boot attacks are more generic and allow to retrieve sensitive
+  information, such as contact lists, visited web sites, and photos, directly
+  from RAM, even though the bootloader is locked. ;;
+
+\bibitem[\protect\citeauthoryear{Rao}{Rao}{2016}]%
+        {Karthik2016}
+{Karthik~M. Rao}. 2016.
+\newblock {\em Proactive Forensic Support for Android Devices}.
+\newblock Master's\ thesis. Amrita Vishwa Vidyapeetham, Ettimadai, Tamil Nadu
+  641112, India.
+\newblock
+\newblock
+\shownote{Advisor: Prabhaker Mateti,
+  \url{http://cecs.wright.edu/~pmateti/Students/index.html}, key = {Android},
+  Mobile Forensics, {Android} Forensics, Crowd-Sourcing.}
+
+
+
+\bibitem[\protect\citeauthoryear{Yang, Shi, Sun, Zheng, and Alves-Foss}{Yang
+  et~al\mbox{.}}{2016}]%
+        {yang2016}
+{Xia Yang}, {Peng Shi}, {Haiyong Sun}, {Wenxuan Zheng}, {and} {Jim Alves-Foss}.
+  2016.
+\newblock \showarticletitle{A Fast Boot, Fast Shutdown Technique for Android OS
+  Devices}.
+\newblock {\em Computer\/} {49}, 7 (2016), 62--68.
+\newblock
+
+
+
+\end{thebibliography}

@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: memoirthesis.aux
+The style file: siam.bst
+Database file #1: thesisbiblio.bib
+Repeated entry---line 57 of file thesisbiblio.bib
+ : @mastersthesis{thakur_2013
+ :                           , title={Forensic Analysis of whatsapp on Android Smartphone}, author={Thakur, Neha}, year={2013}}
+I'm skipping whatever remains of this entry
+Warning--empty school in aiyyappan_2015
+Warning--empty school in karthik_2016
+Warning--empty journal in Muller:2013:FFR:2524523.2524555
+Warning--empty school in thakur_2013
+You've used 13 entries,
+            2030 wiz_defined-function locations,
+            569 strings with 6061 characters,
+and the built_in function-call counts, 4326 in all, are:
+= -- 418
+> -- 206
+< -- 0
++ -- 82
+- -- 68
+* -- 311
+:= -- 671
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 72
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 234
+empty$ -- 270
+format.name$ -- 68
+if$ -- 923
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 10
+newline$ -- 42
+num.names$ -- 26
+pop$ -- 68
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 218
+stack$ -- 0
+substring$ -- 184
+swap$ -- 120
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 4
+while$ -- 35
+width$ -- 15
+write$ -- 112
+(There was 1 error message)

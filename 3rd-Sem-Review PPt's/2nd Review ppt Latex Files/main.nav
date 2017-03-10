@@ -1,0 +1,134 @@
+\beamer@endinputifotherversion {3.24pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\sectionentry {1}{Introduction}{3}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Why Android}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Why Android}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{1}{2}{4/4}{Why Android}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{Why Mobile Forensics is Important}}\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\slideentry {1}{2}{1}{5/5}{Why Mobile Forensics is Important}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{2}{2}{6/6}{Why Mobile Forensics is Important}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{7}{Problem Scenario}}\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\slideentry {1}{3}{1}{7/7}{Problem Scenario}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{3}{2}{8/8}{Problem Scenario}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\sectionentry {2}{Background}{9}{Background}{0}}
+\headcommand {\beamer@sectionpages {3}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{9}{Types of Mobile Forensics Investigation}}\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\slideentry {2}{1}{1}{9/9}{Types of Mobile Forensics Investigation}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {2}{1}{2}{10/10}{Types of Mobile Forensics Investigation}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{11}{Forensic Support Framework}}\headcommand {\beamer@subsectionpages {9}{10}}
+\headcommand {\slideentry {2}{2}{1}{11/11}{Forensic Support Framework}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {2}{2}{2}{12/12}{Forensic Support Framework}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{13}{Shortfalls}}\headcommand {\beamer@subsectionpages {11}{12}}
+\headcommand {\slideentry {2}{3}{1}{13/13}{Shortfalls}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{3}{2}{14/14}{Shortfalls}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{15}{Possible Solutions}}\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\slideentry {2}{4}{1}{15/15}{Possible Solutions}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{4}{2}{16/16}{Possible Solutions}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{17}{File System in User Space}}\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\slideentry {2}{5}{1}{17/17}{File System in User Space}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {2}{5}{2}{18/18}{File System in User Space}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{19}{Cloud File System}}\headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\slideentry {2}{6}{1}{19/19}{Cloud File System}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{6}{2}{20/20}{Cloud File System}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{7}{21}{Rootkits}}\headcommand {\beamer@subsectionpages {19}{20}}
+\headcommand {\slideentry {2}{7}{1}{21/21}{Rootkits}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{7}{2}{22/22}{Rootkits}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\sectionentry {3}{Problem Definition}{23}{Problem Definition}{0}}
+\headcommand {\beamer@sectionpages {9}{22}}
+\headcommand {\beamer@subsectionpages {21}{22}}
+\headcommand {\slideentry {3}{0}{3}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\sectionentry {4}{Solution Outline}{24}{Solution Outline}{0}}
+\headcommand {\beamer@sectionpages {23}{23}}
+\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\slideentry {4}{0}{4}{24/24}{}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{25}{Modules}}\headcommand {\beamer@subsectionpages {24}{24}}
+\headcommand {\slideentry {4}{1}{1}{25/25}{Modules}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {4}{1}{2}{26/26}{Modules}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {4}{1}{3}{27/27}{Modules}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{28}{Cloud Storage API's}}\headcommand {\beamer@subsectionpages {25}{27}}
+\headcommand {\slideentry {4}{2}{1}{28/28}{Cloud Storage API's}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {4}{2}{2}{29/29}{Cloud Storage API's}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\sectionentry {5}{Implementation}{30}{Implementation}{0}}
+\headcommand {\beamer@sectionpages {24}{29}}
+\headcommand {\beamer@subsectionpages {28}{29}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{30}{SleuthKit Forensics Toolkit}}\headcommand {\beamer@subsectionpages {30}{29}}
+\headcommand {\slideentry {5}{1}{1}{30/30}{SleuthKit Forensics Toolkit}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {5}{1}{2}{31/31}{SleuthKit Forensics Toolkit}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{32}{Recovered Email Id's}}\headcommand {\beamer@subsectionpages {30}{31}}
+\headcommand {\slideentry {5}{2}{1}{32/32}{Recovered Email Id's}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {5}{2}{2}{33/33}{Recovered Email Id's}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{34}{Recovered Images}}\headcommand {\beamer@subsectionpages {32}{33}}
+\headcommand {\slideentry {5}{3}{1}{34/34}{Recovered Images}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {5}{3}{2}{35/35}{Recovered Images}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{36}{Hiding a Fuse File System using Rootkit-1}}\headcommand {\beamer@subsectionpages {34}{35}}
+\headcommand {\slideentry {5}{4}{1}{36/36}{Hiding a Fuse File System using Rootkit-1}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {5}{4}{2}{37/37}{Hiding a Fuse File System using Rootkit-1}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\beamer@subsectionentry {0}{5}{5}{38}{Hiding a Fuse File System using Rootkit-2}}\headcommand {\beamer@subsectionpages {36}{37}}
+\headcommand {\slideentry {5}{5}{1}{38/38}{Hiding a Fuse File System using Rootkit-2}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {5}{5}{2}{39/39}{Hiding a Fuse File System using Rootkit-2}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\sectionentry {6}{Summary}{40}{Summary}{0}}
+\headcommand {\beamer@sectionpages {30}{39}}
+\headcommand {\beamer@subsectionpages {38}{39}}
+\headcommand {\slideentry {6}{0}{3}{40/40}{}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {6}{0}{4}{41/41}{}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\headcommand {\beamer@partpages {1}{41}}
+\headcommand {\beamer@sectionpages {40}{41}}
+\headcommand {\beamer@subsectionpages {40}{41}}
+\headcommand {\beamer@appendixpages {42}}
+\headcommand {\sectionentry {7}{\translate {Appendix}}{42}{\translate {Appendix}}{1}}
+\headcommand {\beamer@sectionpages {42}{41}}
+\headcommand {\beamer@subsectionpages {42}{41}}
+\headcommand {\beamer@subsectionentry {1}{7}{1}{42}{Reference}}\headcommand {\beamer@subsectionpages {42}{41}}
+\headcommand {\slideentry {7}{1}{1}{42/42}{Reference}{1}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@partpages {42}{42}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\beamer@sectionpages {42}{42}}
+\headcommand {\beamer@documentpages {42}}
+\headcommand {\def \inserttotalframenumber {42}}

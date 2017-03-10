@@ -1,0 +1,2848 @@
+
+bb_init()
+    conn:
+    proto_major = 7
+    proto_minor = 23
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 012a8580
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 012a7010
+    logfile = 012a8040
+    rootdir = /home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir
+    umask = 00000
+
+bb_getattr(path="/.Trash", statbuf=0xa224ec20)
+
+bb_opendir(path="/", fi=0xa2a4fc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    opendir returned 0x0x7fa69c000e30
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.xdg-volume-info", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.xdg-volume-info", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.xdg-volume-info"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/autorun.inf", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/autorun.inf", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_readdir(path="/", buf=0x9c000ca0, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa69c000e60
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/bogus.txt", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/bogus.txt", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/bogus.txt"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401357
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 11
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c545
+    st_mtime = 0x58131db8
+    st_ctime = 0x58131dcb
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7fa694000fc0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000fc0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x94000990, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa694000ff0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000fc0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000fc0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa1a4dc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000fc0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000fc0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa2a4fc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa69c000e30
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x9c000ca0, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa69c000e60
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa224ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa698000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000990, filler=0xa3249220, offset=0, fi=0xa2a4fc50)
+    readdir returned 0x0x7fa698000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7fa694000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x94000990, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa694000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa1a4dc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa698000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000990, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa698000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa224ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+
+bb_opendir(path="/", fi=0xa2a4fc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7fa69c000e30
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x9c000ca0, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa69c000e60
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa1a4dc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa694000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x94000990, filler=0xa3249220, offset=0, fi=0xa2a4fc50)
+    readdir returned 0x0x7fa694000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa698000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000990, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa698000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa224ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa2a4fc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa69c000e30
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x9c000ca0, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa69c000e60
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa1a4dc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa698000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000990, filler=0xa3249220, offset=0, fi=0xa2a4fc50)
+    readdir returned 0x0x7fa698000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7fa698008c70
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698008c70
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000a10, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa698008ca0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698008c70
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698008c70
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698008c70
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698008c70
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa694000fc0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000fc0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x94000990, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa694000ff0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000fc0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000fc0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa1a4dc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000fc0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000fc0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa2a4fc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa69c000e30
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x9c000ca0, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa69c000e60
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa224ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa698000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000990, filler=0xa3249220, offset=0, fi=0xa2a4fc50)
+    readdir returned 0x0x7fa698000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa694000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x94000990, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa694000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa1a4dc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa2a4fc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa69c000e30
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x9c000ca0, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa69c000e60
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa224ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa698000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000990, filler=0xa3249220, offset=0, fi=0xa2a4fc50)
+    readdir returned 0x0x7fa698000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    opendir returned 0x0x7fa694000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x94000990, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa694000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa1a4dc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa694000a90
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000a90
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x94000a10, filler=0xa3249220, offset=0, fi=0xa2a4fc50)
+    readdir returned 0x0x7fa694000ac0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000a90
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000a90
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000a90
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000a90
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa1a4dc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa698000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x98000990, filler=0xa3249220, offset=0, fi=0xa224ec50)
+    readdir returned 0x0x7fa698000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa224ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa698000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa698000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa2a4fc50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa69c000e30
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x9c000ca0, filler=0xa3249220, offset=0, fi=0xa1a4dc50)
+    readdir returned 0x0x7fa69c000e60
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa224ec60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa69c000e30
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa69c000e30
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/autorun.inf", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/autorun.inf", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/", statbuf=0xa2a4fbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401356
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c510
+    st_mtime = 0x58131d3e
+    st_ctime = 0x58131dcb
+
+bb_opendir(path="/", fi=0xa224ec50)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    opendir returned 0x0x7fa694000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/.Trash", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_readdir(path="/", buf=0x94000990, filler=0xa3249220, offset=0, fi=0xa2a4fc50)
+    readdir returned 0x0x7fa694000b50
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/bogus.txt", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/bogus.txt", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/bogus.txt"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401357
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 11
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c545
+    st_mtime = 0x58131db8
+    st_ctime = 0x58131dcb
+
+bb_getattr(path="/.hidden", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.hidden", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.hidden"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/bogus.txt", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/bogus.txt", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/bogus.txt"
+
+bb_access(path="/bogus.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/bogus.txt", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/bogus.txt"
+
+bb_access(path="/bogus.txt", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/bogus.txt", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/bogus.txt"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/", statbuf=0xa224ebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401356
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c510
+    st_mtime = 0x58131d3e
+    st_ctime = 0x58131dcb
+
+bb_releasedir(path="/", fi=0xa2a4fc60)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7fa694000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007fa694000b20
+    lock_owner = 0x0000000000000000
+
+bb_open(path"/bogus.txt", fi=0xa224ed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/bogus.txt", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/bogus.txt"
+    open returned 5
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/bogus.txt", buf=0x98000af0, size=4096, offset=0, fi=0xa1a4dd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 11
+
+bb_fgetattr(path="/bogus.txt", statbuf=0xa2a4fbf0, fi=0xa2a4fd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    si:
+    st_dev = 2050
+    st_ino = 19401357
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 11
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c545
+    st_mtime = 0x58131db8
+    st_ctime = 0x58131dcb
+
+bb_flush(path="/bogus.txt", fi=0xa224ed10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/bogus.txt", fi=0xa1a4dd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_statfs(path="/", statv=0xa2a4fbe0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 118606630
+    f_bfree = 46140188
+    f_bavail = 40109545
+    f_files = 30138368
+    f_ffree = 29472496
+    f_favail = 29472496
+    f_fsid = -6378775364539624233
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_getattr(path="/", statbuf=0xa224ebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401356
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c510
+    st_mtime = 0x58131d3e
+    st_ctime = 0x58131dcb
+
+bb_statfs(path="/", statv=0xa1a4dbe0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 118606630
+    f_bfree = 46140187
+    f_bavail = 40109544
+    f_files = 30138368
+    f_ffree = 29472496
+    f_favail = 29472496
+    f_fsid = -6378775364539624233
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_getattr(path="/Untitled Document", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_mknod(path="/Untitled Document", mode=0100664, dev=0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    close returned 0
+
+bb_getattr(path="/Untitled Document", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_open(path"/Untitled Document", fi=0xa2a4fd10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_flush(path="/Untitled Document", fi=0xa224ed10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/Untitled Document", fi=0xa1a4dd10)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_getattr(path="/", statbuf=0xa2a4fbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401356
+
+bb_open(path"/Untitled Document", fi=0xa224ed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c510
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x98000af0, size=4096, offset=0, fi=0xa1a4dd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_flush(path="/Untitled Document", fi=0xa2a4fd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/Untitled Document", fi=0xa224ed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x7409da009cf37bc9
+    close returned 0
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/.Trash", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/Untitled Document", statbuf=0xa224ebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_open(path"/Untitled Document", fi=0xa224ed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x98000af0, size=4096, offset=0, fi=0xa1a4dd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_flush(path="/Untitled Document", fi=0xa224ed10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_getattr(path="/Untitled Document", statbuf=0xa1a4dbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_getattr(path="/Untitled Document", statbuf=0xa2a4fbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_release(path="/Untitled Document", fi=0xa224ed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/.Trash", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_open(path"/Untitled Document", fi=0xa224ed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x98000c50, size=4096, offset=0, fi=0xa1a4dd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_flush(path="/Untitled Document", fi=0xa124cd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/Untitled Document", fi=0xa224ed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x8da04bb6efd91a55
+    close returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_getattr(path="/.Trash", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/Untitled Document", statbuf=0xa224ebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa124cc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    ERROR bb_access access: Permission denied
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_open(path"/Untitled Document", fi=0xa224ed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/.Trash", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_read(path="/Untitled Document", buf=0x8c000af0, size=4096, offset=0, fi=0xa124cd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    direct_io = 0
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_flush(path="/Untitled Document", fi=0xa224ed10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/Untitled Document", fi=0xa1a4dd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_getattr(path="/.Trash", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_getattr(path="/Untitled Document", statbuf=0xa2a4fbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/Untitled Document", statbuf=0xa124cbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_getattr(path="/.Trash", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+
+bb_open(path"/Untitled Document", fi=0xa2a4fd10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+
+bb_read(path="/Untitled Document", buf=0x94000af0, size=4096, offset=0, fi=0xa224ed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+    st_gid = 1000
+
+bb_open(path"/Untitled Document", fi=0xa0a4bd10)
+
+bb_flush(path="/Untitled Document", fi=0xa2a4fd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+    st_rdev = 0
+    st_size = 0
+
+bb_release(path="/Untitled Document", fi=0xa224ed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    st_ctime = 0x5814c59b
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+    open returned 6
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa1a4dc20)
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+
+bb_fgetattr(path="/Untitled Document", statbuf=0xa0a4bbf0, fi=0xa0a4bd10)
+    fi:
+    ERROR bb_access access: Permission denied
+
+bb_getattr(path="/Untitled Document", statbuf=0x8b7fdbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    flags = 0x00000000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_ctime = 0x00000000
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_access(path="/", mask=02)
+    lstat returned 0
+    si:
+
+bb_read(path="/Untitled Document", buf=0x8c000af0, size=4096, offset=0, fi=0xa124cd10)
+    fi:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+    flags = 0x00048000
+    fh_old = 0x00000006
+    writepage = 0
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+    pread returned 0
+    ERROR bb_access access: Permission denied
+
+bb_flush(path="/Untitled Document", fi=0x8bffed10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x6287836f5277b9e9
+
+bb_open(path"/Untitled Document", fi=0x8bffed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_fgetattr(path="/Untitled Document", statbuf=0xa2a4fbf0, fi=0xa2a4fd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_release(path="/Untitled Document", fi=0x8b7fdd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000006
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000006
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x8c000af0, size=4096, offset=0, fi=0xa124cd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    close returned 0
+
+bb_flush(path="/Untitled Document", fi=0x8b7fdd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_release(path="/Untitled Document", fi=0xa1a4dd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/Untitled Document", statbuf=0xa0a4bbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    close returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    ERROR bb_access access: Permission denied
+    ERROR bb_access access: Permission denied
+
+bb_open(path"/Untitled Document", fi=0x8bffed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x98000dc0, size=4096, offset=0, fi=0xa1a4dd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_getattr(path="/Untitled Document", statbuf=0xa124cbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_flush(path="/Untitled Document", fi=0xa0a4bd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/Untitled Document", fi=0xa2a4fd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/", statbuf=0x8b7fdbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401356
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c510
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_getattr(path="/.Trash", statbuf=0x8bffec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa1a4dc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/Untitled Document", statbuf=0xa0a4bc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_open(path"/Untitled Document", fi=0xa2a4fd10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x94000af0, size=4096, offset=0, fi=0xa224ed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_flush(path="/Untitled Document", fi=0x8b7fdd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/Untitled Document", fi=0x8bffed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_access(path="/Untitled Document", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_access(path="/Untitled Document", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+
+bb_getattr(path="/Untitled Document", statbuf=0xa0a4bbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_access(path="/Untitled Document", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    ERROR bb_access access: Permission denied
+
+bb_open(path"/Untitled Document", fi=0xa224ed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    open returned 5
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/Untitled Document", buf=0x7c000af0, size=4096, offset=0, fi=0x8b7fdd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_getattr(path="/Untitled Document", statbuf=0x8bffebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_flush(path="/Untitled Document", fi=0xa1a4dd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/Untitled Document", fi=0xa124cd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_getattr(path="/abc", statbuf=0xa0a4bc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/Untitled Document", statbuf=0xa2a4fc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59b
+
+bb_getattr(path="/abc", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_rename(fpath="/Untitled Document", newpath="/abc")
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/Untitled Document", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/Untitled Document"
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    rename returned 0
+
+bb_getattr(path="/", statbuf=0x8bffebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401356
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c510
+    st_mtime = 0x5814c59d
+    st_ctime = 0x5814c59d
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/.Trash", statbuf=0xa124cc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa0a4bc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/abc", statbuf=0xa224ebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59d
+
+bb_open(path"/abc", fi=0x8b7fdd10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/abc", buf=0x84000c50, size=4096, offset=0, fi=0x8bffed10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_flush(path="/abc", fi=0xa1a4dd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/abc", fi=0xa124cd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0xd744885c3897d8b8
+    close returned 0
+
+bb_access(path="/abc", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+
+bb_access(path="/abc", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+
+bb_getattr(path="/abc", statbuf=0xa224ebf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59d
+
+bb_access(path="/abc", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    ERROR bb_access access: Permission denied
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/", statbuf=0xa1a4dbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19401356
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5814c510
+    st_mtime = 0x5814c59d
+    st_ctime = 0x5814c59d
+
+bb_getattr(path="/.Trash", statbuf=0xa124cc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0xa0a4bc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.Trash-1000", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_access(path="/", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/"
+
+bb_getattr(path="/abc", statbuf=0xa224ec20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59d
+
+bb_getattr(path="/.hidden", statbuf=0x8b7fdc20)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/.hidden", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/.hidden"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_open(path"/abc", fi=0x8bffed10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    open returned 5
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/abc", buf=0x98000dc0, size=4096, offset=0, fi=0xa1a4dd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_flush(path="/abc", fi=0xa124cd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/abc", fi=0xa0a4bd10)
+    fi:
+    flags = 0x00048000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_access(path="/abc", mask=04)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+
+bb_access(path="/abc", mask=02)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+
+bb_getattr(path="/abc", statbuf=0x8b7fdbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59b
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59d
+
+bb_access(path="/abc", mask=01)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    ERROR bb_access access: Permission denied
+
+bb_open(path"/abc", fi=0xa1a4dd10)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    open returned 5
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_read(path="/abc", buf=0x8c000af0, size=4096, offset=0, fi=0xa124cd10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    pread returned 0
+
+bb_getattr(path="/abc", statbuf=0xa0a4bbf0)
+    bb_fullpath:  rootdir = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir", path = "/abc", fpath = "/home/sudip/Desktop/android security/THesis/file system/fuse-tutorial-2016-03-25/src/rootdir/abc"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 19406980
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5814c59e
+    st_mtime = 0x5814c59b
+    st_ctime = 0x5814c59d
+
+bb_flush(path="/abc", fi=0xa2a4fd10)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x6287836f5277b9e9
+
+bb_release(path="/abc", fi=0xa224ed10)
+    fi:
+    flags = 0x00008000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bb_destroy(userdata=0x012a7010)
