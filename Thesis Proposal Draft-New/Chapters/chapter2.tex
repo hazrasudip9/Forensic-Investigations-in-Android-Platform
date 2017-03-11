@@ -2,7 +2,7 @@
 
 Filesystems are collections of methods and data structures that an operating system uses to keep track of data on disks or partitions.Different operating systems uses different types of file systems like Windows uses NTFS and FAT32 file systems.Linux uses EXT4,EXT3,EXT2 etc.Earlier Android kernels used YAFFS2 file systems ,However newer Android kernels use EXT4 file systems.File systems atre implemented at kernel level.Implementing a new file system at the kernel level involves modifying the kernel source code and rebuilding it with the new file system support,This creates complexity which can be solved by implementing file system at the user level .
 \section{Fuse(File system in User Space)}
-\begin{figure}
+\begin{figure}[H]
    
     \includegraphics[width=0.7\textwidth ]{Figures/fig02/fuse}
     \caption{\href{https://en.wikipedia.org/wiki/Filesystem_in_Userspace}{Filesystem in Userspace }} 
@@ -72,7 +72,7 @@ struct fuse\_operations \{
 
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[H]
    \centering
     \includegraphics[width=0.7\textwidth ]{Figures/fig02/workingfuse}
     \caption{\href{https://www.cs.cmu.edu/~fp/courses/15213-s07/lectures/15-filesys/}{Making a Call in Fuse File System} } 

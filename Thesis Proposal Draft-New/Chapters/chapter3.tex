@@ -1,9 +1,9 @@
 \chapter{Problem Statement}
 \label{chap:problem statement}
 
-The project is a part of an ongoing project on Proactive Forensics. The Previous Work has been done by Karthik Et.al\cite{Karthik2016}and Aiyyappan Et.al\cite{Aiyyappan2015}. Aiyyappan ported the inotifywait to android. File events are tracked by inotify tool and the inotify source was complied using NDK programming and compiled to a native shared object library. The native function excepts a directory to track and all file events are tracked. He also created the forensic examiner toolkit which runs on linux machine to image, recover and collect device specific data from the cloud. Some amount of stealth was also enabled using hidepid =2 , where users can only see their own processes and process id's are also hidden from /proc also.
+The project is a part of an ongoing project on Proactive Forensics. The Previous Work has been done by Karthik Et.al \cite{Karthik2016} and  Aiyyappan Et.al \cite{Aiyyappan2015}. Aiyyappan ported the inotifywait to android. File events are tracked by inotify tool and the inotify source was complied using NDK programming and compiled to a native shared object library. The native function excepts a directory to track and all file events are tracked. He also created the forensic examiner toolkit which runs on linux machine to image, recover and collect device specific data from the cloud. Some amount of stealth was also enabled using hidepid =2 , where users can only see their own processes and process id's are also hidden from /proc also.
 
-Karthik Et.al created the android apk which extensively tracks the user activities like GPS,Sensor data,WIFI Metadata,Sms,Call recording and keylogger was also included in the apk , which could be configured when the rom is flashed and used for the first time, after that there is no dialog whatsoever and the app runs in stealth mode and saves all the forensically relevant data in/forensic partition and opportunistically uploads it to the cloud.However the background process can be discovered if the user roots the phone and gets root access , Then he /she can easily see all the background process running and can also discover the /forensic partition , compromising the evidence , even though the partition is encrypted but it will still create suspicion in the suspects mind. 
+Karthik created the android apk which extensively tracks the user activities like GPS,Sensor data,WIFI Metadata,Sms,Call recording and keylogger was also included in the apk , which could be configured when the rom is flashed and used for the first time, after that there is no dialog whatsoever and the app runs in stealth mode and saves all the forensically relevant data in/forensic partition and opportunistically uploads it to the cloud.However the background process can be discovered if the user roots the phone and gets root access , Then he /she can easily see all the background process running and can also discover the /forensic partition , compromising the evidence , even though the partition is encrypted but it will still create suspicion in the suspects mind. 
 \newpage
 \section{Aim}
 There are two possible solutions in this scenario:\\
@@ -37,7 +37,6 @@ Advantages of Mounting The cloud storage as local file system:
 \tt 
 1.Detecting Trojans in Android Devices by Manuel Antony.\\
 \tt 
-2.Detecting  Android Ransomware Within The
-Device Using Crowdsourcing by Jithin Chandra Mohan.
+
 \end{itemize}
 

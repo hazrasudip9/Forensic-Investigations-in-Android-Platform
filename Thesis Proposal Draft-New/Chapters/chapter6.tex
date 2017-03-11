@@ -4,7 +4,7 @@ The Following is Collection of Literature Review on Works related to Android For
 \bigskip 
 
 \textbf{Androphsy: Forensic Framework for Android }\\
-Akarawita Et.Al \cite{akarawita_2015} implemented a forensic framework which can acquire data both 
+\cite{akarawita_2015}  implemented a forensic framework which can acquire data both 
 Physically and logically from the android smartphone. For physical acquisition they 
 used DD program to clone the system image. For logical acquisition they use adbpull 
 to clone the filesystem partition, other tools used were logcat,demsg ,dumpsys,scalpel 
@@ -13,13 +13,13 @@ remote server. It was better than other Opensource Forensic tools like Oxygen an
 ViaExtract CE tool. Rooting of the phone is necessary.\\
 
 \textbf{Smartphone Forensics : A proactive Investigative Approach}\\
-Mylonas Et.Al  suggested a proactive forensic framework which is regulated by an 
+\cite{mylonas2012} suggested a proactive forensic framework which is regulated by an 
 independent authority. Two modes of forensics namely Usermode and Network 
 mode. No information about Implementation , was the phone rooted or unrooted, 
 functionality of the app not given.\\ 
 
-\textbf{(Frost: Forensic Recovery of Scambled Telephones}\\
-Muller Et.Al\cite{muller2013frost} deviced an forensic image which was flashed on to the phone and it was 
+\textbf{Frost: Forensic Recovery of Scambled Telephones}\\
+\cite{muller2013frost}deviced an forensic image which was flashed on to the phone and it was 
 capable to bruteforcing Pin, direct recovery of encryption keys and decrypting user 
 partition on phone itself. If the bootloader is locked not of much use , only option is 
 to take memory dump but all smartphones now comes with default locked bootloader, secondly only if the handset is instantly available to the expert , he can freeze the ram to minimize 
@@ -30,7 +30,7 @@ Justin Grover \cite{Grovera2013} made the first of its kind android forensics to
 
 
 \textbf{Specifying a Realistic File System }\\
-BilbyFs  is a an asynchronous write flash file system whose formal verification is done using Isabelle/Hol. The file system needs a C-Wrapper which is placed between the VFS and the filesystem hence direct mapping is not possible. which can be a disadvantage. It follows strict ordering of updates and do not support concurrency. It was formally verified that the Bilbyfs indeed follows async writes .\\
+ Bilbyfs \cite{amani2015specifying}   is a an asynchronous write flash file system whose formal verification is done using Isabelle/Hol. The file system needs a C-Wrapper which is placed between the VFS and the filesystem hence direct mapping is not possible. which can be a disadvantage. It follows strict ordering of updates and do not support concurrency. It was formally verified that the Bilbyfs indeed follows async writes .\\
 
 \textbf{A Fast Boot, Fast Shutdown Technique for Android OS Devices}\\
 The paper \cite{yang2016} demonstrates a new technique of Fast Boot in android called FBFS. Here the snapshot is taken of the system only once and hence afterwards whenever the system boots, it makes a call to RSS\verb+\+\_thread to sync the ram image with the latest files in emmc. significantly decreases the startup time to 7.8secs and shutdown to normal 10.3 secs, but when will the system know when to update the snapshot upon system update or a specified amount of time is not addressed.\\
@@ -40,12 +40,14 @@ A \cite{hanif2015} large scale malware analysis framework implemented in skald f
 
 
 \textbf{Subverting Operating System Properties Through Evolutionary DKOM Attacks}\\
- New type\cite{graziano2016} of DKOM attack ,does not change the kernel dynamic data structures at once but continues to do it over a period of time. Difficult to detect because there is no sudden change but continuous one. attacks the cfs tree of the scheduler but not the process tree hence the app being attacked shows in the ps but it is indefinitely delayed in the scheduler as the vruntime is set to max. Detected using a thin hypervisor debugger which uses defensive mimic technique to detect the attack using periodic monitor and task tracker. Can stop ids or any antivirus and do not modify kernel code. Various other variation possible like attacking memory management.\\
+ New type \cite{graziano2016} of DKOM attack ,does not change the kernel dynamic data structures at once but continues to do it over a period of time. Difficult to detect because there is no sudden change but continuous one. attacks the cfs tree of the scheduler but not the process tree hence the app being attacked shows in the ps but it is indefinitely delayed in the scheduler as the vruntime is set to max. Detected using a thin hypervisor debugger which uses defensive mimic technique to detect the attack using periodic monitor and task tracker. Can stop ids or any antivirus and do not modify kernel code. Various other variation possible like attacking memory management.\\
 
 \textbf{Forensic Analysis of Instant Messenger Applications on Android devices}\\
-Mahajan Et.al\cite{mahajan2013}have done forensic investigation on whatsapp and viber using Celebrite UEFD Classic device , they were able to extract whatsapp and viber data however on using the physical analyzer software of Celebrite, it succeeded incase of whatsapp but failed in case of viber. Manual Analysis of the viber folder were needed. Pretty much everything was extracted like chat messages, images videos with timestamp, however the data in internal memory of sdcard was encrypted however they did not test it after the deleting the data , was the tool able to extract data from the unallocated space is unknown.\\
+\cite{mahajan2013}have done forensic investigation on whatsapp and viber using Celebrite UEFD Classic device , they were able to extract whatsapp and viber data however on using the physical analyzer software of Celebrite, it succeeded incase of whatsapp but failed in case of viber. Manual Analysis of the viber folder were needed. Pretty much everything was extracted like chat messages, images videos with timestamp, however the data in internal memory of sdcard was encrypted however they did not test it after the deleting the data , was the tool able to extract data from the unallocated space is unknown.\\
+
 \textbf{Forensics Analysis of Whatsapp Messenger on Android Smartphones }\\
 Anglano Et.Al \cite{anglano_2014} wrote a very good paper decoding the whatsapp artifacts and step by step linking to what is the greater picture . Artifacts were carefully correlated to infer all the required information and tracing events even if the messages were deleted using whatsapp logs but very little support what will happen if whatsapp is removed using Uninstall- it like app or the phone is formatted.\\
+
 \textbf{M.S Thesis on Forensic Analysis of whatsapp on Android Smartphone 
 Neha Thakur }\\
 Whatsapp \cite{Thakur2013}  Forensics can be done in two ways : If whatsapp folder is in Sdcard can be decrypted using WhatsapXtract Tool which is now obsolete beacause the Key has changed andd we need to edit the code to add the new key. Memory Forensics of volatile memory can also be done , suing memfetch to extract selective portions of ram , taking the heap of the selected appliaction and running data extraction tool on the memory dump. Recently deleted messages can be easily 
