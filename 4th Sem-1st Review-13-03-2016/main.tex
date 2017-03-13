@@ -68,7 +68,7 @@
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-\date{12 December 2016}
+\date{13 March 2017}
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
 %   yourself) who are reading the slides online
@@ -254,21 +254,7 @@ The Filesystem in Userspace (FUSE) is a special part of the Linux \indent kernel
 	 \item \href{https://ahmetalpbalkan.com/blog/introducing-azurefs/}{Azurefs:} A python package to mount Azure blob storage as Local File system.
 	 \end{itemize}	   	
 \end{frame}
-\subsection{Rootkits}
-\begin{frame}{Rootkits}
-A rootkit is a clandestine computer program designed to provide continued privileged access to a computer while actively hiding its presence. rootkit allows someone to maintain command and control over a computer without the computer user/owner knowing about it.
-Types of Rootkits:
-\begin{itemize}
-\item User Level Rootkits
-\item Kernel Level Rootkits Like:
-\begin{itemize}
-      \item{Hooking System Calls}
-      \item{Direct Kernel Object Manipulation (DKOM)}
-      \item{Interrupt Descriptor Table (IDT) Hooking}
-    \end{itemize}
-\end{itemize}
 
-\end{frame}
 \section{Problem Definition}
 \begin{frame}{Problem Definition}{What is the Goal}
 \begin{itemize}
@@ -334,58 +320,107 @@ get('https://api.dropbox.com/1/metadata/auto' + path, args)
 
 
 \end{frame}
+\subsection{Calling Native Libraries Using Java}
+\begin{frame}{Calling Native Libraries Using Java}
+Since libfuse is a native library written in c, We need to have some wrapper functions to call the Native Libraries in Java.\\
+\bigskip
+This can be achieved by :\\
+\bigskip
+1.Java Native Interface(JNI).\\
+\bigskip
+2.Java Native Access(JNA).\\
+\bigskip
+3.Java Native Runtime(JNR).\\
+
+\end{frame}
+\subsection{Calling Native Code using JNA}
+\begin{frame}{Calling Native Code using JNA}
+Package net.fusejna.examples;
+
+import java.io.File;\\
+import java.nio.ByteBuffer;\\
+import net.fusejna.DirectoryFiller;\\
+import net.fusejna.ErrorCodes;\\
+import net.fusejna.FuseException;\\
+import net.fusejna.StructFuseFileInfo.FileInfoWrapper;\\
+import net.fusejna.StructStat.StatWrapper;\\
+import net.fusejna.types.TypeMode.NodeType;\\
+import net.fusejna.util.FuseFilesystemAdapterFull;\\
+\bigskip
+We need to Subclass net.fusejna.FuseFilesystem and override the methods we need i.e FuseFilesystemAdapterFull.\\
+\bigskip
+
+public int readdir(final String path, final DirectoryFiller filler)\\
+	{
+		filler.add(filename);
+		return 0;
+	}
+\end{frame}
+
+\subsection{Addressing Performance Issues}
+\begin{frame}{Addressing Performance Issues}
+Android imposes user-level filesystem (FUSE) over native filesystem partition to provide flexibility in managing the internal storage space and to maintain host compatibility. However, the overhead of user-level filesystem is prohibitively large and the native storage bandwidth is significantly under-utilized.
+In order to address this overhead of user-level filesystem and Compensate the JNA Overhead.We will be using Buffered Fuse\cite{jeong2014buffered}\\
+\bigskip
+The key technical ingredients of Buffered FUSE\cite{jeong2014buffered} are\\
+(i) extended FUSE IO size.\\
+(ii) internal user-level write buffer (FUSE buffer).\\
+(iii) independent management thread which performs time driven FUSE buffer synchronization.
+\end{frame}
+
+\bigskip
+
+\bigskip
+In this paper\cite{jeong2014buffered} the author has increased the fuse buffer size to 512 kb and FUSE Buffer , also the android ioschdedular has been changed and file system has been changed to XFS. They are claiming 70 \% increase in speed.The modified sdcard.c has the following changes on study:\\
+In android/platform\_system\_core/sdcard.c:\\
+They have defined a FUSE CACHE.\\
+
+\#include pthread.h\\
+\#define FUSE\_CACHE 1\\ 
+ \#define FUSE\_CACHE\_THREAD 1 \\
+ \#define FUSE\_CACHE\_SIGNAL 0 \\
+ \#define FUSE\_IO\_SIZE 512*1024\\
+\#define FUSE\_CACHE\_SIZE FUSE\_IO\_SIZE*4\\
+\#define FUSE\_CACHE\_NUM 4\\
+
+
+\subsection{Stealth}
+\begin{frame}{Stealth\cite{doar-e}}
+\begin{itemize}
+\item The vector table is a table that actually contains control transfer instructions that jump to the respective exception handlers.\\
+
+\item On 32-bit ARM Linux this address is 0xffff0000.\\
+\item Our plan is going to be to backdoor the kernel by overwriting the SWI exception vector with code that jumps to our backdoor code. This code will check for a magic value in a register and if it matches, it will elevate the privileges of the calling process.\\
+\item If we choose an appropriate location in kernel space, our code will exist as long as the machine is running
+
+\end{itemize}
+\end{frame}
+
+
+
+
+
 
 
 \section{Implementation}
-\subsection{SleuthKit Forensics Toolkit}
-\begin{frame}{Implementation}{SleuthKit Forensics Toolkit}
-\textbf{Results of Android Device Forensics after factory reset}
-\begin{figure}
-\centering
+\begin{frame}{Implementation}
+Compiled Android kernel with module support
+\begin{itemize}
+\item Android kernel, by default do not support loadable modules. 
+\item make ARCH=arm goldfish\_defconfig (This will create our .config)
+\item Edit the .config file and searched for the line “CONFIG\_MODULES”
+It was unset for me and the line looked liked this
+\item CONFIG\_MODULES is not set
+I changed the line to CONFIG\_MODULES=y, saved and closed the file.
+\item Now, the command to build the kernel
+make ARCH=arm CROSS\_COMPILE=~/Desktop/mydroid/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
 
-\includegraphics[width=.5\textwidth,height=.5\textheight]{images/sleuthkit}
-\caption{Sleuthkit Forensic Toolkit}
-\label{imageLabel}
 
-\end{figure}
-
-
-
+\end{itemize}
 \end{frame}
-\subsection{Recovered Email Id's}
-\begin{frame}{Recovered Email Id's}
-\textbf{Very Few artifacts were Recovered after the device was factory reset.}
-\begin{figure}
-\includegraphics[width=.5\textwidth,height=.5\textheight]{images/emails}
-\caption{Recovered Email Id's}
-\end{figure}
-\end{frame}
-\subsection{Recovered Images}
-\begin{frame}{Recovered Images}
-\begin{figure}
-\includegraphics[width=.5\textwidth,height=.5\textheight]{images/exitmetadata}
-\caption{Recovered Images}
-\end{figure}
-\end{frame}
-\subsection{Hiding a Fuse File System using Rootkit-1}
-\begin{frame}{Hiding a Fuse File System using Rootkit}
-The rootkit was implemented in Ubuntu 12.04 32 bit, It highjackes the write system call and filter out the file system name and returns the output.
 
-\begin{figure}
-\includegraphics[width=.8\textwidth,height=.3\textheight]{images/normal}
-\caption{Normal Execution of df Command}
-\end{figure}
 
-\end{frame}
-\subsection{Hiding a Fuse File System using Rootkit-2}
-\begin{frame}{Output of df after Rootkit installation}
-\begin{figure}
-\includegraphics[width=.8\textwidth,height=.3\textheight]{images/rooty}
 
-\caption{ Execution of df Command after rootkit is installed}
-\end{figure}
-
-\end{frame}
 \section{Summary}
 \begin{frame}{Summary}
   \begin{itemize}
@@ -440,6 +475,17 @@ This Framework can effectively Hide the forensic as well as the cloud file syste
     \textit{Android platform based linux kernel rootkit},
     Dong-Hoon You, Bong-Nam Noh,
     Malicious and Unwanted Software (MALWARE), 2011 6th International Conference ,IEEE
+    
+    \bibitem{jeong2014buffered}
+      \textit{Buffered FUSE: optimising the Android IO stack for user-level filesystem},
+	  Jeong, Sooman and Won, Youjip,
+      International Journal of Embedded Systems,2014.
+      
+      \bibitem{doar-e}
+      \textit{Corrupting the ARM Exception Vector Table},
+      http://doar-e.github.io/blog/2014/04/30/corrupting-arm-evt/
+      
+    
     
     
     

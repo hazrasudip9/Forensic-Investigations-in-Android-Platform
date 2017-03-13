@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.13)  12 DEC 2016 08:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.27)  13 MAR 2017 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
 Package: beamerbasercs 2012/11/13 (rcs-revision cb16a617839f)
@@ -77,7 +77,7 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
@@ -107,22 +107,22 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -551,7 +551,7 @@ Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks28
 )
 \c@figure=\count138
@@ -567,40 +567,40 @@ Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks29
 \ex@=\dimen174
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen175
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count140
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count141
 \leftroot@=\count142
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count143
 \DOTSCASE@=\count144
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
 \big@size=\dimen176
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count145
 \c@MaxMatrixCols=\count146
 \dotsspace@=\muskip11
@@ -621,11 +621,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks33
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks34
 \thm@bodyfont=\toks35
 \thm@headfont=\toks36
@@ -676,7 +676,7 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 sty
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \c@tracingmulticols=\count153
 \mult@box=\box53
 \multicol@leftmargin=\dimen185
@@ -693,6 +693,7 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \multicolbaselineskip=\skip58
 \partial@page=\box54
 \last@line=\box55
+\maxbalancingoverflow=\dimen190
 \mult@rightbox=\box56
 \mult@grightbox=\box57
 \mult@gfirstbox=\box58
@@ -716,16 +717,13 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box76
 \c@columnbadness=\count159
 \c@finalcolumnbadness=\count160
-\last@try=\dimen190
-\multicolovershoot=\dimen191
-\multicolundershoot=\dimen192
+\last@try=\dimen191
+\multicolovershoot=\dimen192
+\multicolundershoot=\dimen193
 \mult@nat@firstbox=\box77
 \colbreak@box=\box78
-\multicol@sort@counter=\count161
+\mc@col@check@num=\count161
 ) (./main.aux
-
-LaTeX Warning: Label `imageLabel' multiply defined.
-
 
 LaTeX Warning: Label `imageLabel' multiply defined.
 
@@ -790,13 +788,13 @@ LaTeX Font Info:    ... okay on input line 99.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count162
-\scratchdimen=\dimen193
+\scratchdimen=\dimen194
 \scratchbox=\box79
 \nofMPsegments=\count163
 \nofMParguments=\count164
 \everyMPshowfont=\toks40
 \MPscratchCnt=\count165
-\MPscratchDim=\dimen194
+\MPscratchDim=\dimen195
 \MPnumerator=\count166
 \makeMPintoPDFobject=\count167
 \everyMPtoPDFconversion=\toks41
@@ -922,7 +920,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 113.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/AVV_colour.png, id=113, 91.0602pt x 103.587pt>
+<images/AVV_colour.png, id=105, 91.0602pt x 103.587pt>
 File: images/AVV_colour.png Graphic file (type png)
 
 <use images/AVV_colour.png>
@@ -973,7 +971,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [3
 
-] <images/idc.png, id=312, 675.52374pt x 447.6725pt>
+] <images/idc.png, id=297, 675.52374pt x 447.6725pt>
 File: images/idc.png Graphic file (type png)
  <use images/idc.png>
 Package pdftex.def Info: images/idc.png used on input line 139.
@@ -1078,7 +1076,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [11
 
-] <images/forensic.png, id=688, 920.43875pt x 599.23875pt>
+] <images/forensic.png, id=661, 920.43875pt x 599.23875pt>
 File: images/forensic.png Graphic file (type png)
 
 <use images/forensic.png>
@@ -1161,7 +1159,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [17
 
-] <fuse.jpg, id=968, 338.76563pt x 275.52937pt>
+] <fuse.jpg, id=932, 338.76563pt x 275.52937pt>
 File: fuse.jpg Graphic file (type jpg)
  <use fuse.jpg>
 Package pdftex.def Info: fuse.jpg used on input line 240.
@@ -1207,7 +1205,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [20
 
-] (./main.toc)
+]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1219,7 +1217,18 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [21
 
-]
+] <images/FUSE.png, id=1079, 821.0675pt x 605.26125pt>
+File: images/FUSE.png Graphic file (type png)
+
+<use images/FUSE.png>
+Package pdftex.def Info: images/FUSE.png used on input line 280.
+(pdftex.def)             Requested size: 239.59436pt x 156.28365pt.
+pdfTeX warning (ext4): destination with the same identifier (name{imageLabel}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.280 \end{frame}
+                 
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1231,7 +1240,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [22
 
-]
+ <./images/FUSE.png>] (./main.toc)
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1243,18 +1252,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [23
 
-] <images/FUSE.png, id=1212, 821.0675pt x 605.26125pt>
-File: images/FUSE.png Graphic file (type png)
-
-<use images/FUSE.png>
-Package pdftex.def Info: images/FUSE.png used on input line 294.
-(pdftex.def)             Requested size: 239.59436pt x 156.28365pt.
-pdfTeX warning (ext4): destination with the same identifier (name{imageLabel}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.294 \end{frame}
-                 
+]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1266,7 +1264,11 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [24
 
- <./images/FUSE.png>] (./main.toc)
+]
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
+
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1278,7 +1280,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [25
 
-]
+] (./main.toc)
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1291,10 +1293,6 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 [26
 
 ]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1342,18 +1340,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [30
 
-] <images/sleuthkit.png, id=1520, 1307.88625pt x 748.7975pt>
-File: images/sleuthkit.png Graphic file (type png)
-
-<use images/sleuthkit.png>
-Package pdftex.def Info: images/sleuthkit.png used on input line 354.
-(pdftex.def)             Requested size: 171.1288pt x 130.24171pt.
-pdfTeX warning (ext4): destination with the same identifier (name{imageLabel}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.354 \end{frame}
-                 
+]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1365,7 +1352,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [31
 
- <./images/sleuthkit.png>] (./main.toc)
+] (./main.toc)
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1377,13 +1364,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [32
 
-] <images/emails.png, id=1615, 1307.88625pt x 748.7975pt>
-File: images/emails.png Graphic file (type png)
-
-<use images/emails.png>
-Package pdftex.def Info: images/emails.png used on input line 362.
-(pdftex.def)             Requested size: 171.1288pt x 130.24171pt.
-
+]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1395,7 +1376,10 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [33
 
- <./images/emails.png>] (./main.toc)
+] (./main.toc)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1407,13 +1391,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [34
 
-] <images/exitmetadata.png, id=1709, 1307.88625pt x 748.7975pt>
-File: images/exitmetadata.png Graphic file (type png)
-
-<use images/exitmetadata.png>
-Package pdftex.def Info: images/exitmetadata.png used on input line 369.
-(pdftex.def)             Requested size: 171.1288pt x 130.24171pt.
-
+]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1423,9 +1401,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[35
-
- <./images/exitmetadata.png>] (./main.toc)
+[35]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1437,12 +1413,13 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [36
 
-] <images/normal.png, id=1803, 734.745pt x 244.915pt>
-File: images/normal.png Graphic file (type png)
-
-<use images/normal.png>
-Package pdftex.def Info: images/normal.png used on input line 379.
-(pdftex.def)             Requested size: 273.83578pt x 78.14268pt.
+]
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
 
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1455,7 +1432,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [37
 
- <./images/normal.png>] (./main.toc)
+]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1467,13 +1444,7 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [38
 
-] <images/rooty.png, id=1896, 728.7225pt x 253.94875pt>
-File: images/rooty.png Graphic file (type png)
-
-<use images/rooty.png>
-Package pdftex.def Info: images/rooty.png used on input line 388.
-(pdftex.def)             Requested size: 273.83736pt x 78.14204pt.
-
+]
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1485,7 +1456,12 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [39
 
- <./images/rooty.png>]
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 453.
+
+
 Overfull \hbox (110.4791pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1497,35 +1473,6 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 
 [40
 
-]
-Overfull \hbox (110.4791pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (89.98718pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[41
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 418.
-
-
-Overfull \hbox (110.4791pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (89.98718pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[42
-
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 \tf@nav=\write6
 \openout6 = `main.nav'.
@@ -1536,14 +1483,14 @@ Overfull \hbox (89.98718pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E9788920B662FFFBB660053003FF4C00;1563.
+(rerunfilecheck)             Checksum: 91318206F2972C23EBECF2553CC31E01;1408.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1552,26 +1499,26 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 504.
  ) 
 Here is how much of TeX's memory you used:
- 16286 strings out of 493304
- 302528 string characters out of 6139870
- 385847 words of memory out of 5000000
- 19199 multiletter control sequences out of 15000+600000
+ 16242 strings out of 493029
+ 301355 string characters out of 6136234
+ 385629 words of memory out of 5000000
+ 19245 multiletter control sequences out of 15000+600000
  12466 words of font info for 46 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 49i,16n,65p,393b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1141 hyphenation exceptions out of 8191
+ 49i,16n,65p,393b,721s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on main.pdf (42 pages, 825377 bytes).
+Output written on main.pdf (40 pages, 512024 bytes).
 PDF statistics:
- 2070 PDF objects out of 2073 (max. 8388607)
- 1964 compressed objects within 20 object streams
- 115 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1879 PDF objects out of 2073 (max. 8388607)
+ 1786 compressed objects within 18 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 
